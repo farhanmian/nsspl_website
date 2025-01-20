@@ -1,0 +1,45 @@
+.embeddedOutlookCard-innerContainer {
+  max-width: 1450px;
+  width: 85%;
+  margin: 70px auto 0px auto;
+  display: flex;
+  align-items: center;
+  column-gap: 150px;
+  justify-content: space-around;
+}
+
+.embeddedOutlookCard-imageContainer {
+  max-width: 506px;
+  width: 50%;
+  position: relative;
+  /* margin: auto; */
+}
+.embeddedOutlookCard-imageContainer > img {
+  width: 100%;
+}
+
+.embeddedOutlookCard-textContainer {
+  max-width: 506px;
+  padding-top: 12px;
+  width: 50%;
+}
+.embeddedOutlookCard-heading {
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+
+.embeddedOutlookCard-aboutDescriptionText {
+  color: var(--gray-666);
+  line-height: 27.4px;
+  margin-bottom: 10px;
+}
+
+.embeddedOutlookCard-pointItem {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+.embeddedOutlookCard-border {
+  border-bottom: 1px solid #e7e7e7;
+  width: 100%;
+}

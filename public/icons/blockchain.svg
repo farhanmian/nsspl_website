@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   version="1.1"
+   id="Layer_1"
+   x="0px"
+   y="0px"
+   width="226.777px"
+   height="226.777px"
+   viewBox="0 0 226.777 226.777"
+   enable-background="new 0 0 226.777 226.777"
+   xml:space="preserve"
+   sodipodi:docname="blockchain.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+   id="defs142" />
+  <sodipodi:namedview
+   id="namedview140"
+   pagecolor="#505050"
+   bordercolor="#eeeeee"
+   borderopacity="1"
+   inkscape:showpageshadow="0"
+   inkscape:pageopacity="0"
+   inkscape:pagecheckerboard="0"
+   inkscape:deskcolor="#505050"
+   showgrid="false"
+   inkscape:zoom="1.0406699"
+   inkscape:cx="112.90804"
+   inkscape:cy="113.3885"
+   inkscape:window-width="1280"
+   inkscape:window-height="456"
+   inkscape:window-x="0"
+   inkscape:window-y="25"
+   inkscape:window-maximized="0"
+   inkscape:current-layer="Layer_1" />
+  <g
+   id="BCN_1_"
+   style="fill:#2AA126">
+    <path
+   fill="#231F20"
+   d="M130.324,116.855c-11.818,0-21.83,0-27.473,0v34.143c8.471,0,20.325,0,27.647,0   c12.364,0,25.627-4.413,25.627-15.501C156.126,124.408,148.573,116.855,130.324,116.855z"
+   id="path132"
+   style="fill:#2AA126" />
+    <path
+   fill="#231F20"
+   d="M147.004,87.909c0-10.697-10.008-15.404-19.819-15.404c-6.942,0-18.281,0-24.333,0V104   c6.26,0,17.077,0,23.743,0C136.407,104,147.004,98.604,147.004,87.909z"
+   id="path134"
+   style="fill:#2AA126" />
+    <path
+   fill="#231F20"
+   d="M113.533,0.288C50.989,0.288,0.288,50.989,0.288,113.533c0,62.543,50.701,113.244,113.245,113.244   c62.543,0,113.244-50.701,113.244-113.244C226.777,50.989,176.076,0.288,113.533,0.288z M131.698,169.516   c-11.999,0-48.993,0-48.993,0V140.5H52.615v-14.717h30.091v-19.526H52.615V91.538h30.091V57.007c0,0,41.481,0,52.916,0   c18.841,0,30.811,15.762,30.811,28.124c0,12.364-11.381,19.361-11.381,19.361s19.622,6.477,19.622,29.433   C174.673,156.885,154.853,169.516,131.698,169.516z"
+   id="path136"
+   style="fill:#2AA126" />
+  </g>
+</svg>

@@ -1,0 +1,42 @@
+.prophetCRMintegrationComponet-innerContainer {
+  max-width: 1450px;
+  width: 90%;
+  margin: 100px auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  column-gap: 100px;
+}
+
+.prophetCRMintegrationComponet-imageContainer {
+  max-width: 556px;
+  width: 50%;
+}
+.prophetCRMintegrationComponet-imageContainer > img {
+  width: 100%;
+}
+
+.prophetCRMintegrationComponet-textContainer {
+  max-width: 615px;
+  padding-top: 12px;
+  width: 50%;
+}
+.prophetCRMintegrationComponet-heading {
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+
+.prophetCRMintegrationComponet-aboutDescriptionText {
+  color: var(--gray-666);
+  line-height: 27.4px;
+  margin-bottom: 10px;
+}
+
+.prophetCRMintegrationComponet-pointItem {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+.prophetCRMintegrationComponet-flexDirection {
+  flex-direction: row-reverse;
+}

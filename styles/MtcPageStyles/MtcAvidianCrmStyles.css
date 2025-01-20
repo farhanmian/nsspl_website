@@ -1,0 +1,54 @@
+.mtcAvidianCrm-innerContainer {
+  max-width: 1509px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 20px;
+  background-color: #fff2ea;
+  padding: 70px 30px 30px 30px;
+  border-radius: 47px;
+  margin-bottom: 50px;
+}
+
+.mtcAvidianCrm-TextContainer {
+  max-width: 470px;
+}
+.mtcAvidianCrm-FeaturedHeading {
+  padding: 05px 20px;
+  background-color: #ffff;
+  color: #2aa126;
+  border-radius: 31px;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  letter-spacing: 0.3px;
+  line-height: 39px;
+  max-width: 180px;
+  width: 100%;
+}
+.mtcAvidianCrm-heading {
+  font-weight: 800;
+  color: #232323;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  letter-spacing: 0.3px;
+  line-height: 39px;
+}
+
+.mtcAvidianCrm-btn {
+  padding: 13px 40px;
+  margin-top: 10px;
+  color: #ffff;
+  font-weight: 500;
+  background-color: #2aa126;
+
+  letter-spacing: 1px;
+}
+
+.mtcAvidianCrm-img {
+  max-width: 708px;
+  transform: translateX(120px);
+}

@@ -1,0 +1,37 @@
+{
+  "name": "nsspl",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 8000",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@emotion/react": "^11.11.4",
+    "@emotion/styled": "^11.11.5",
+    "@fortawesome/fontawesome-svg-core": "^6.1.2",
+    "@fortawesome/react-fontawesome": "^0.2.0",
+    "@mui/icons-material": "^5.15.15",
+    "@mui/material": "^5.15.15",
+    "@tawk.to/tawk-messenger-react": "^2.0.1",
+    "daisyui": "^2.24.0",
+    "html-react-parser": "^5.1.10",
+    "next": "12.2.5",
+    "react": "18.2.0",
+    "react-countup": "^6.3.2",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.4.0",
+    "sweetalert2": "^11.4.32",
+    "swiper": "^8.3.2",
+    "typewriter-effect": "^2.19.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.8",
+    "eslint": "8.22.0",
+    "eslint-config-next": "12.2.5",
+    "postcss": "^8.4.16",
+    "tailwindcss": "^3.1.8"
+  }
+}

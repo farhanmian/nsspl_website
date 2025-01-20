@@ -1,0 +1,174 @@
+.mtcQuoteForm-section {
+  margin-top: 80px;
+  margin-bottom: 120px;
+}
+
+.mtcQuoteForm-innerContainer {
+  max-width: 1450px;
+  width: 90%;
+  margin: auto;
+  /* display: flex; */
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  flex-direction: row-reverse;
+  justify-content: space-between;
+  align-items: center;
+  column-gap: 50px;
+}
+
+.mtcQuoteForm-fromContainer {
+  max-width: 604px;
+  width: 100%;
+  padding-left: 30px;
+}
+
+.mtcQuoteForm-formText {
+  line-height: 23.66px;
+  color: #666666;
+  margin-bottom: 27px;
+  margin-top: 40px;
+}
+
+.mtcQuoteForm-inputContainer {
+  padding: 10px 0px;
+  margin: 25px 0px 0px;
+  border-bottom: 1px solid #323232;
+  width: 100%;
+}
+
+.mtcQuoteForm-inputContainer input {
+  outline: none;
+  background-color: transparent;
+  border: none;
+}
+.mtcQuoteForm-inputContainer input::placeholder {
+  color: #2c2b2b;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+.mtcQuoteForm-inquiryText {
+  outline: none;
+  background-color: transparent;
+  border: none;
+  width: 100%;
+}
+.mtcQuoteForm-emailContainer {
+  display: flex;
+  column-gap: 40px;
+}
+.mtcQuoteForm-textContainer {
+  max-width: 736px;
+  padding: 50px 70px;
+  /* background: red; */
+  background-image: url(../../public/imgs/mtc/contact-img.png);
+  background-size: cover;
+  color: #fff;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.mtcQuoteForm-inputContainerInput {
+  resize: none;
+  width: 100%;
+  height: 100px;
+  /* height: 100%; */
+  outline: none;
+  background-color: transparent;
+  border: none;
+  color: #2c2b2b;
+  font-weight: 400;
+  font-family: "Roboto", sans-serif;
+}
+
+.mtcQuoteForm-btn {
+  padding: 18px 50px;
+  margin-top: 20px;
+  display: flex;
+  column-gap: 06px;
+  align-items: center;
+  color: #ffff;
+  font-weight: 600;
+  background-color: #2aa126;
+}
+.mtcQuoteForm-btn:hover {
+  cursor: pointer;
+}
+
+.mtcQuoteForm-aboutTitle {
+  font-weight: 700;
+  margin-bottom: 12px;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mtcQuoteForm-messageText {
+  color: #2c2b2b;
+  font-family: "Montserrat", sans-serif;
+  position: relative;
+}
+.mtcQuoteForm-messageText::before {
+  content: "";
+  display: block;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  border-radius: 100%;
+  background-color: #2aa126;
+  top: 50%;
+  left: -20px;
+  transform: translate(-50%, -50%);
+  z-index: 10;
+}
+.mtcQuoteForm-aboutText {
+  color: #2aa126;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+.mtcQuoteForm-heading {
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+
+.mtcQuoteForm-aboutDescriptionText {
+  /* color: var(--gray-666); */
+  line-height: 27.4px;
+}
+.mtcQuoteForm-aboutDescription {
+  margin-bottom: 22px;
+}
+
+.mtcQuoteForm-pointsContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 18px;
+  /* margin-bottom: 4rem; */
+}
+.mtcQuoteForm-icons {
+  color: #2aa126;
+}
+.mtcQuoteForm-pointItem {
+  display: flex;
+  column-gap: 18px;
+}
+
+.mtcQuoteForm-pointItemHeading {
+  /* color: #999999; */
+  font-weight: 500;
+  line-height: 21px;
+  font-size: 17px;
+  font-family: "Montserrat", sans-serif;
+}
+.mtcQuoteForm-map {
+  max-width: 1519px;
+  width: 100%;
+  margin-top: 100px;
+}
+
+@media (max-width: 1280px) {
+  .mtcQuoteForm-textContainer {
+    padding: 40px;
+  }
+}

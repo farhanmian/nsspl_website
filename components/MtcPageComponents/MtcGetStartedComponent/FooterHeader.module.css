@@ -1,0 +1,42 @@
+.mtcGetStartedComponent-textHeadingContainer {
+  background-image: url("./../../../../assets//img/nssplimg/footer.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  text-align: center;
+  padding: 60px 0px;
+}
+.mtcGetStartedComponent-heading {
+  margin-bottom: 20px;
+  color: #fff;
+  letter-spacing: 0.3px;
+  font-weight: 600;
+}
+
+.mtcGetStartedComponent-borderContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  column-gap: 10px;
+  margin-bottom: 10px;
+}
+.mtcGetStartedComponent-BoderBlue {
+  border: 2px solid #2aa126;
+  width: 25px;
+  display: block;
+}
+.mtcGetStartedComponent-BoderWhite {
+  border: 2px solid #fff;
+  width: 50px;
+  display: block;
+}
+.mtcGetStartedComponent-btn {
+  padding: 13px 40px;
+  margin-top: 10px;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 1px;
+  background-color: #2aa126;
+}
+.mtcGetStartedComponent-btn:hover {
+  cursor: pointer;
+}

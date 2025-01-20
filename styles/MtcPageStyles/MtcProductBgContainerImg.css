@@ -1,0 +1,46 @@
+/********************************* bgContainerImg (card) file styles */
+
+.bgContainerCard-bgContainer {
+  height: 323px;
+  /* margin-bottom: 60px; */
+}
+.bgContainerCard-bgImg {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.bgContainerCard-img {
+  width: 100%;
+}
+.bgContainerCard-textHeading {
+  color: #ffff;
+  font-size: 40px;
+  position: absolute;
+  text-align: center;
+}
+
+.bgContainerCard-buttonContainer {
+  background-color: #232323;
+  opacity: 60%;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  /* max-width: 279px; */
+  max-width: max-content;
+  margin: auto;
+  margin-top: 15px;
+}
+.bgContainerCard-btns {
+  padding: 10px 20px;
+  color: #ffff;
+  background-color: transparent;
+  font-weight: 600;
+}
+.bgContainerCard-border {
+  font-size: 23px;
+}
+
+.bgContainerCard-activeBtnClass {
+  color: #0d71ac;
+}

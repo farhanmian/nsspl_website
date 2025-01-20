@@ -1,0 +1,60 @@
+.opportunityManagementCard-section {
+  position: relative;
+  overflow: hidden;
+}
+.opportunityManagementCard-innerContainer {
+  max-width: 1450px;
+  width: 80%;
+  margin: 100px auto 70px auto;
+  display: flex;
+  align-items: center;
+  column-gap: 170px;
+}
+
+.opportunityManagementCard-imageContainer {
+  max-width: 556px;
+  width: 50%;
+  margin: auto;
+}
+.opportunityManagementCard-imageContainer > img {
+  width: 100%;
+}
+
+.opportunityManagementCard-effectBorderImg {
+  width: 370px;
+  height: 1000px;
+  position: absolute;
+  max-width: 500px;
+  z-index: -1;
+  right: -9%;
+  bottom: 10%;
+  background-color: #b4d3e5;
+  transform: rotate(-45deg);
+  top: 36px;
+  border-radius: 10px;
+}
+.opportunityManagementCard-textContainer {
+  max-width: 610px;
+  padding-top: 12px;
+  width: 50%;
+}
+.opportunityManagementCard-heading {
+  font-weight: 600;
+  margin-bottom: 26px;
+}
+
+.opportunityManagementCard-aboutDescriptionText {
+  color: var(--gray-666);
+  line-height: 27.4px;
+  margin-bottom: 10px;
+}
+
+.opportunityManagementCard-pointItem {
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+.opportunityManagementCard-border {
+  border-bottom: 1px solid #e7e7e7;
+  width: 100%;
+}

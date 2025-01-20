@@ -1,0 +1,115 @@
+.mtcHelpSection-section {
+  padding-top: 92px;
+  padding-bottom: 100px;
+  background-color: #f7f7f7;
+}
+
+.mtcHelpSection-innerContainer {
+  max-width: 1672px;
+  margin: auto;
+  width: 90%;
+}
+.mtcHelpSection-mainClass {
+  margin-top: 50px;
+  margin-bottom: 80px;
+}
+
+.mtcHelpSection-mainContainer {
+  display: flex;
+  justify-content: space-between;
+}
+.mtcHelpSection-img {
+  max-width: 40px;
+}
+
+.mtcHelpSection-cardContainer {
+  margin-top: 6px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 2px;
+  /* display: flex;
+  flex-wrap: wrap; */
+}
+
+.mtcHelpSection-card {
+  border-radius: 10px;
+  /* width: 316px; */
+  /* height: 246px; */
+  background-color: #fff;
+  width: 100%;
+  box-shadow: 1px 4px 20px -2px #0000001a;
+  padding: 24px 20px;
+}
+
+.mtcHelpSection-icon {
+  width: 62px;
+  height: 62px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 14px;
+}
+
+.mtcHelpSection-cardHeading {
+  font-weight: 600;
+  margin-bottom: 07px;
+  font-family: Montserrat;
+  font-size: 17px;
+}
+
+.mtcHelpSection-card p {
+  color: #666666;
+  font-family: Montserrat;
+  line-height: 20.28px;
+}
+
+.mtcHelpSection-flexReverse {
+  flex-direction: row-reverse;
+}
+
+.mtcHelpSection-detailCardList {
+  display: flex;
+  flex-direction: column;
+  row-gap: 50px;
+}
+.mtcHelpSection-border {
+  border-bottom: 1px solid #e7e7e7;
+  width: 100%;
+}
+
+.mtcHelpSection-cardContainer1 {
+  display: grid;
+  grid-template-columns: 1fr;
+  column-gap: 100px;
+  row-gap: 20px;
+}
+.mtcHelpSection-cards {
+  display: flex;
+  column-gap: 20px;
+  max-width: 440px;
+}
+
+.mtcHelpSection-heading1 {
+  color: #232323;
+  font-weight: 800;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 20px;
+  margin-bottom: 10px;
+  font-size: 17px;
+}
+.mtcHelpSection-pay {
+  line-height: 20px;
+  font-size: 13px;
+}
+.mtcHelpSection-bgblueColor {
+  min-width: 55px;
+  max-width: 55px;
+  height: 55px;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f2f2f2;
+}

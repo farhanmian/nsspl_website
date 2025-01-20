@@ -1,0 +1,56 @@
+.avidianCrmOutlook-section {
+  margin-top: 99px;
+  margin-bottom: 92px;
+}
+
+.avidianCrmOutlook-innerContainer {
+  max-width: 1250px;
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 100px;
+}
+
+.avidianCrmOutlook-imageContainer {
+  max-width: 506px;
+  width: 50%;
+}
+.avidianCrmOutlook-imageContainer > img {
+  width: 100%;
+}
+
+.avidianCrmOutlook-textContainer {
+  max-width: 616px;
+  width: 50%;
+}
+
+.avidianCrmOutlook-heading {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.avidianCrmOutlook-aboutDescriptionText {
+  color: var(--gray-666);
+  line-height: 24px;
+}
+.avidianCrmOutlook-aboutDescription {
+  margin-bottom: 22px;
+}
+
+.avidianCrmOutlook-pointsContainer {
+  display: flex;
+  flex-direction: column;
+  row-gap: 26px;
+  margin-bottom: 40px;
+}
+
+.avidianCrmOutlook-pointItem {
+  display: flex;
+  column-gap: 18px;
+}
+
+.avidianCrmOutlook-pointItemHeading {
+  font-weight: 600;
+  margin-bottom: 10px;
+}

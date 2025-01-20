@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" viewBox="0 0 1000 1000" xml:space="preserve">
+<desc>Created with Fabric.js 3.5.0</desc>
+<defs>
+</defs>
+<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+<g transform="matrix(2.7909 0 0 2.7909 500.0056 500.0056)" id="303490">
+<g style="" vector-effect="non-scaling-stroke">
+		<g transform="matrix(1 0 0 1 1.0225 35.2705)" id="Capa_1">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,153,85); fill-rule: nonzero; opacity: 1;" transform=" translate(-163.8915, -198.1395)" d="M 202.138 156.467 h -76.494 c -24.138 0 -43.775 19.638 -43.775 43.775 v 39.57 h 164.045 v -39.57 C 245.913 176.105 226.275 156.467 202.138 156.467 z M 168.423 171.467 l -4.532 6.514 l -4.532 -6.514 L 168.423 171.467 L 168.423 171.467 z M 96.868 200.243 c 0 -15.867 12.908 -28.775 28.775 -28.775 h 15.441 l 13.669 19.645 l -23.449 33.7 H 96.868 V 200.243 z M 163.891 204.244 l 14.312 20.569 h -28.624 L 163.891 204.244 z M 230.913 224.813 h -34.436 l -23.449 -33.701 l 13.669 -19.645 h 15.441 c 15.867 0 28.775 12.909 28.775 28.775 L 230.913 224.813 L 230.913 224.813 z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1 0 0 1 1.022 -53.9445)" id="Capa_1">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,153,85); fill-rule: nonzero; opacity: 1;" transform=" translate(-163.891, -108.9245)" d="M 163.891 152.941 c 24.271 0 44.017 -19.746 44.017 -44.017 s -19.746 -44.016 -44.017 -44.016 s -44.017 19.746 -44.017 44.016 C 119.874 133.196 139.62 152.941 163.891 152.941 z M 163.891 79.909 c 16 0 29.017 13.017 29.017 29.016 c 0 16 -13.017 29.017 -29.017 29.017 s -29.017 -13.017 -29.017 -29.017 C 134.874 92.925 147.891 79.909 163.891 79.909 z" stroke-linecap="round"/>
+</g>
+		<g transform="matrix(1 0 0 1 0 0)" id="Capa_1">
+<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,153,85); fill-rule: nonzero; opacity: 1;" transform=" translate(-162.869, -162.869)" d="M 325.738 52.104 V 0 h -52.104 v 15 h 26.497 L 251.38 63.751 c -23.406 -20.475 -54.022 -32.901 -87.49 -32.901 c -33.986 0 -65.031 12.816 -88.572 33.862 L 25.607 15 h 26.497 V 0 H 0 v 52.104 h 15 V 25.607 l 49.712 49.712 c -21.045 23.541 -33.861 54.585 -33.861 88.572 c 0 33.467 12.426 64.084 32.901 87.49 L 15 300.131 v -26.497 H 0 v 52.104 h 52.104 v -15 H 25.607 l 48.635 -48.635 c 23.666 21.621 55.143 34.828 89.649 34.828 c 33.987 0 65.032 -12.816 88.572 -33.861 l 47.668 47.668 h -26.497 v 15 h 52.104 v -52.104 h -15 v 26.497 l -47.668 -47.668 c 21.045 -23.541 33.862 -54.586 33.862 -88.572 c 0 -34.506 -13.207 -65.983 -34.828 -89.649 l 48.635 -48.635 v 26.497 L 325.738 52.104 L 325.738 52.104 z M 163.891 281.931 c -65.088 0 -118.04 -52.953 -118.04 -118.041 S 98.803 45.85 163.891 45.85 s 118.041 52.953 118.041 118.041 S 228.979 281.931 163.891 281.931 z" stroke-linecap="round"/>
+</g>
+</g>
+</g>
+</svg>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="32px"
+   height="32px"
+   viewBox="0 0 32 32"
+   id="icon"
+   version="1.1"
+   sodipodi:docname="enterprise.svg"
+   inkscape:version="1.2.1 (9c6d41e4, 2022-07-14)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+   <sodipodi:namedview
+     id="namedview491"
+     pagecolor="#505050"
+     bordercolor="#eeeeee"
+     borderopacity="1"
+     inkscape:showpageshadow="0"
+     inkscape:pageopacity="0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#505050"
+     showgrid="false"
+     inkscape:zoom="7.375"
+     inkscape:cx="15.932203"
+     inkscape:cy="16"
+     inkscape:window-width="1280"
+     inkscape:window-height="456"
+     inkscape:window-x="0"
+     inkscape:window-y="25"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="icon" />
+   <defs
+     id="defs471">
+      <style
+       id="style469">.cls-1{fill:none;}</style>
+   </defs>
+   <title
+     id="title473">enterprise</title>
+   <rect
+     x="8"
+     y="8"
+     width="2"
+     height="4"
+     id="rect475"
+     style="fill:#2AA126" />
+   <rect
+     x="8"
+     y="14"
+     width="2"
+     height="4"
+     id="rect477"
+     style="fill:#2AA126" />
+   <rect
+     x="14"
+     y="8"
+     width="2"
+     height="4"
+     id="rect479"
+     style="fill:#2AA126" />
+   <rect
+     x="14"
+     y="14"
+     width="2"
+     height="4"
+     id="rect481"
+     style="fill:#2AA126" />
+   <rect
+     x="8"
+     y="20"
+     width="2"
+     height="4"
+     id="rect483"
+     style="fill:#2AA126" />
+   <rect
+     x="14"
+     y="20"
+     width="2"
+     height="4"
+     id="rect485"
+     style="fill:#2AA126" />
+   <path
+     d="M30,14a2,2,0,0,0-2-2H22V4a2,2,0,0,0-2-2H4A2,2,0,0,0,2,4V30H30ZM4,4H20V28H4ZM22,28V14h6V28Z"
+     id="path487"
+     style="fill:#2AA126" />
+   <rect
+     id="_Transparent_Rectangle_"
+     data-name="&lt;Transparent Rectangle&gt;"
+     class="cls-1"
+     width="32"
+     height="32" />
+</svg>

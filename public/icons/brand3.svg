@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="93" height="93" viewBox="0 0 93 93">
+  <g id="flow-flow-logo" transform="translate(-457 -233.08)">
+    <circle id="circle20" cx="46.5" cy="46.5" r="46.5" transform="translate(457 233.08)" fill="#00ef8b"/>
+    <rect id="rect22" width="14" height="14" transform="translate(510 272.08)" fill="#fff"/>
+    <path id="path24" d="M496.92,291.08a4.92,4.92,0,1,1-4.92-4.92h4.92V273.08H492a18,18,0,1,0,18,18h0v-4.92H496.92Z" fill="#fff"/>
+    <path id="path26" d="M516.14,265.38H531v-13.3H516.14A18.24,18.24,0,0,0,498,270.38v1.7h13.18v-1.7a5,5,0,0,1,4.96-5Z" fill="#fff"/>
+    <path id="polygon28" d="M511,272.08H497v14h14Z" fill="#16ff99"/>
+  </g>
+</svg>

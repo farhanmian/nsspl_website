@@ -1,0 +1,62 @@
+/************************************************************* textFlexCard styles */
+
+.textFlexCard-innerContainer {
+  max-width: 1509px;
+  width: 85%;
+  margin: 50px auto;
+}
+
+.textFlexCard-CardConainer {
+  justify-content: space-between;
+  align-items: center;
+  display: flex;
+  column-gap: 34px;
+  margin-bottom: 70px;
+}
+.textFlexCard-border {
+  border-bottom: 1px solid #e7e7e7;
+  width: 100%;
+}
+.textFlexCard-row_reverse {
+  flex-direction: row-reverse;
+}
+
+.textFlexCard-TextContainer {
+  max-width: 560px;
+}
+.textFlexCard-heading {
+  font-weight: 600;
+  color: #232323;
+  font-family: "Montserrat", sans-serif;
+  margin-bottom: 20px;
+  letter-spacing: 0.3px;
+  line-height: 39px;
+}
+
+.textFlexCard-btn {
+  padding: 13px 40px;
+  margin-top: 10px;
+  color: var(--color-primary);
+  font-weight: 500;
+  background-color: transparent;
+  border: 2px solid #e1e1e1;
+  letter-spacing: 1px;
+}
+.textFlexCard-btn:hover {
+  color: #232323;
+}
+
+.textFlexCard-imgContainer {
+  position: relative;
+}
+
+.textFlexCard-img {
+  max-width: 658px !important;
+}
+/* .effectImg {
+  position: absolute;
+  bottom: -10%;
+  right: 0%;
+  max-width: 270px;
+  z-index: -1;
+} */

@@ -1,0 +1,43 @@
+.avidianCrmFeatures-innerContainer {
+  max-width: 1509px;
+  width: 90%;
+  margin: auto;
+  padding: 50px 0px;
+}
+
+.avidianCrmFeatures-imgContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  gap: 20px;
+}
+.avidianCrmFeatures-card {
+  max-width: 300px;
+  width: 100%;
+  background-color: #ffffff;
+  padding: 30px;
+  box-shadow: 1px 4px 20px -2px #0000001a;
+  /* margin-bottom: 10px; */
+}
+
+.avidianCrmFeatures-text {
+  color: #232323;
+  margin-bottom: 05px;
+  margin-top: 05px;
+}
+.avidianCrmFeatures-pay {
+  font-size: 12px;
+  margin-bottom: 0%;
+}
+
+/* AVIDIAN CRM section */
+
+.avidianCrmFeatures-bgblueColor {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f2f2f2;
+  margin-bottom: 15px;
+}
