@@ -32,7 +32,7 @@ const cardData = [
   {
     img: "/imgs/services/staff-augmentation.png",
     title: "Staff Augmentation",
-    link: "/services/",
+    link: "/services/contract-developer",
   },
   {
     img: "/imgs/services/cloud-support.png",
@@ -111,7 +111,7 @@ const LatestTechnologies = () => {
               <div className={styles.bgimg}>
                 <img src={item.img} alt="" className={styles.imgCard} />
                 <p className={styles.title}>{item.title}</p>
-                <Link href={"/"}>Learn More</Link>
+                <Link href={item.link}>Learn More</Link>
                 {<div className={styles.imgOverlay} />}
               </div>
             </div>

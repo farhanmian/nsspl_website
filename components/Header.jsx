@@ -131,7 +131,7 @@ const Header = () => {
                         closeHeader();
                       }}
                     >
-                      Contract Developers
+                      Staff Augmentation
                     </a>
                   </Link>
                 </li>
