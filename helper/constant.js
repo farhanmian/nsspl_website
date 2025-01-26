@@ -13,3 +13,7 @@ export {
   getCaseStudyById,
   getHomeCaseStudy,
 };
+
+export const colors = {
+  primary: "#2AA126",
+};

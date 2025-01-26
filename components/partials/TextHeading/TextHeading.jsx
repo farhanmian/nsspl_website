@@ -9,7 +9,7 @@ const TextHeading = ({ heading, text }) => {
           <span className={"textHeading-BoderBlack"}></span>
           <span className={"textHeading-BoderBlue"}></span>
         </div>
-        <p className={`${"textHeading-pay"} heading2`}>{text}</p>
+        <p className={`${"textHeading-pay"} heading2 text-sm`}>{text}</p>
       </div>
     </>
   );

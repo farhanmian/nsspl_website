@@ -1,0 +1,67 @@
+.borderBottom {
+  border-bottom: 1px solid #e7e7e7;
+}
+.innerContainer {
+  max-width: 1509px;
+  width: 85%;
+  margin: 70px auto;
+}
+.innerContainer h3 {
+  font-weight: 700;
+}
+
+.cardContainer {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 30px;
+}
+.cards {
+  display: flex;
+  column-gap: 22px;
+  max-width: 490px;
+}
+
+.heading {
+  color: #232323;
+  font-weight: 700;
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  line-height: 21px;
+  margin-bottom: 10px;
+}
+.pay {
+  line-height: 26px;
+  font-size: 14px;
+}
+.bgblueColor {
+  min-width: 55px;
+  max-width: 55px;
+  height: 55px;
+  border-radius: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #f2f2f2;
+}
+
+@media (max-width: 1024px) {
+  .innerContainer {
+    width: 90%;
+    /* margin-left: 40px;
+    margin-right: 40px; */
+    padding: 0 20px;
+    margin: 0 40px;
+    margin-bottom: 50px;
+  }
+}
+@media (max-width: 900px) {
+  .innerContainer {
+    margin: 40px auto;
+  }
+  .cardContainer {
+    grid-template-columns: 1fr;
+  }
+  .cards {
+    max-width: 100%;
+  }
+}

@@ -1,11 +1,13 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
   --text-color: #131313;
-  --color-primary: #1cb9c8;
-  --color-primary-dark: #19aab8;
+  --color-primary: #2aa126;
+  --color-primary-dark: #1f921b;
   --gray-666: #666666;
   --gray-e1e1: #e1e1e1;
 }
@@ -18,10 +20,23 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+  /* font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-  font-family: "Ubuntu", sans-serif;
+  font-family: "Ubuntu", sans-serif; */
+  font-family: "Montserrat", serif;
+
   display: block;
+  color: #221c1a;
+}
+
+#navbar {
+  background-image: linear-gradient(to right, #fff 12%, #2aa126 60%);
+}
+
+.text-gray-600,
+.text-heading,
+.text-para {
+  color: #221c1a;
 }
 
 a {
@@ -46,6 +61,10 @@ a {
   animation: slideIn 0.4s linear;
 }
 
+#sliderContainer .slick-slider button {
+  top: 40% !important;
+}
+
 @keyframes slideIn {
   from {
     transform: translateX(100px);
@@ -68,10 +87,13 @@ a {
 .btnPrimary {
   background-color: var(--color-primary);
   transition: all 0.3s;
+  border-radius: 4px;
 }
 .btnPrimary:hover {
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primary);
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
+  color: #fff;
+  border-color: var(--color-primary);
 }
 
 .btnOutlined {
@@ -84,7 +106,7 @@ a {
   transition: all 0.3s;
 }
 .btnOutlined:hover {
-  background-color: var(--color-primary-dark);
+  background-color: var(--color-primary);
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
   color: #fff;
   border-color: var(--color-primary);

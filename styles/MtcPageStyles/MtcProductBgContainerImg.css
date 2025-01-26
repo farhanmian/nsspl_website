@@ -1,7 +1,7 @@
 /********************************* bgContainerImg (card) file styles */
 
 .bgContainerCard-bgContainer {
-  height: 323px;
+  /* height: 323px; */
   /* margin-bottom: 60px; */
 }
 .bgContainerCard-bgImg {
@@ -43,4 +43,15 @@
 
 .bgContainerCard-activeBtnClass {
   color: #0d71ac;
+}
+
+@media (max-width: 1024px) {
+  .bgContainerCard-img {
+    height: 100%;
+    width: auto;
+    object-fit: cover;
+  }
+  .bgContainerCard-bgImg {
+    height: 250px;
+  }
 }

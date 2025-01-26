@@ -11,7 +11,7 @@ const BgContainerImg = ({ img, heading, isTab, btns = defaultBtns }) => {
         <div className={`bgContainerCard-bgImg`}>
           <img src={img} alt="img" className={`bgContainerCard-img`} />
           <div className={`bgContainerCard-textHeading`}>
-            <h1>{parse(heading)}</h1>
+            <h1 className="font-medium">{parse(heading)}</h1>
             {isTab && (
               <div className={`bgContainerCard-buttonContainer`}>
                 {btns.map((item, i) => (

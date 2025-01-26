@@ -22,7 +22,7 @@
 }
 
 .textFlexCard-TextContainer {
-  max-width: 560px;
+  max-width: 650px;
 }
 .textFlexCard-heading {
   font-weight: 600;
@@ -51,7 +51,7 @@
 }
 
 .textFlexCard-img {
-  max-width: 658px !important;
+  max-width: 630px !important;
 }
 /* .effectImg {
   position: absolute;

@@ -1,0 +1,144 @@
+.bgcolor {
+  background-color: #f7f7f7;
+  padding: 1.5rem 0;
+}
+
+.innerContainer {
+  max-width: 142.4rem;
+  width: 90%;
+  margin: auto;
+  /* text-align: center; */
+}
+
+.cardContainer {
+  display: flex;
+  column-gap: 3rem;
+  margin: auto;
+}
+.cardWrapper {
+  padding: 0 0.5rem;
+  max-width: 45rem;
+  /* margin-bottom: 2rem; */
+}
+.card {
+  box-shadow: 1px 4px 20px -2px #0000001a;
+  width: 100%;
+  /* margin-right: 5rem; */
+  /* min-width: 45.5rem; */
+  /* min-width: 45.5rem; */
+}
+.bgimg {
+  position: relative;
+}
+.title {
+  position: absolute;
+  bottom: 11%;
+  left: 6%;
+  color: #ffffff;
+  font-size: 1.2rem;
+  font-weight: 600;
+  font-family: "Montserrat", sans-serif;
+  z-index: 10;
+}
+.card a {
+  font-size: 0.8rem;
+  color: #fff;
+  z-index: 10;
+  position: absolute;
+  bottom: 3%;
+  left: 6%;
+}
+.imgCard {
+  width: 100%;
+  height: 200px;
+}
+
+.imgOverlay {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(0, 0, 0, 0) 0%,
+    rgba(0, 0, 0, 0.9) 100%
+  );
+}
+
+.textPay {
+  padding: 2rem 4rem;
+  min-height: 23rem;
+}
+.bordertop {
+  border-top: 1px solid #e7e7e7;
+}
+.iconPart {
+  margin-top: 24px;
+  display: flex;
+  justify-content: space-between;
+}
+.bgblueColor {
+  background-color: #2aa126;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bgblueColor > svg > *,
+.bgblueColor > svg path {
+  fill: #fff;
+  color: #fff;
+}
+
+.btn {
+  background-color: transparent;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: #666666;
+}
+.btn:hover {
+  color: var(--color-primary);
+  transition: all 0.3s;
+}
+
+@media (max-width: 1280px) {
+  .cardContainer {
+    column-gap: 1.5rem;
+  }
+  .bgcolor {
+    padding: 6rem 4rem;
+  }
+  .textPay {
+    padding: 2rem;
+  }
+  .imgCard {
+    height: 250px;
+  }
+  .cardWrapper {
+    padding: 0 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .bgcolor {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-top: 5rem;
+  }
+}
+
+@media (max-width: 640px) {
+  .cardWrapper {
+    padding: 0 0.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .imgCard {
+    height: 200px;
+  }
+}

@@ -2,7 +2,7 @@ import React from "react";
 
 function Partners() {
   return (
-    <div className=" bg-lightGray mt-10 py-2 pb-5">
+    <div className=" bg-lightGray mt-14 mb-10 py-2 pb-5">
       <div className="title ">
         <h1 className="text-bold text-4xl text-center my-2 sm:text-4xl md:text-5xl lg:text-5xl text-heading">
           Our <span className="text-primary"> Partners</span>

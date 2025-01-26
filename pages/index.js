@@ -13,6 +13,7 @@ import Head from "next/head";
 import PortfolioSlideNew from "../components/Homepage/PortfolioSlideNew";
 import { BsCheckCircleFill } from "react-icons/bs";
 import CountUp from "react-countup";
+import LatestTechnologies from "../components/Homepage/LatestTechnologies/LatestTechnologies";
 
 const technologiesData = [
   [
@@ -154,7 +155,9 @@ export default function Home() {
         {/* Counter End-------------------------------------------------------------------------- */}
 
         {/* We create Start------------------------------------------------------------ */}
-        <section className="technology text-heading">
+        <LatestTechnologies />
+
+        {/* <section className="technology text-heading">
           <div className="flex px-5 lg:px-12 lg:mx-10 md:flex-row tech-inner">
             <div className="lg:flex-grow md:w-1/3 p-50">
               <div className="title lg:text-left my-3 lg:my-9 text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
@@ -265,14 +268,15 @@ export default function Home() {
                     </div>
                   </div>
                 </div>
-                {/* <div className="lg:flex-grow md:w-1/3"></div> */}
+                
               </div>
             </div>
             <div className="lg:flex-grow md:w-1">
               <div className="technologies_bg_image h-100"></div>
             </div>
           </div>
-        </section>
+        </section> */}
+
         {/* We create End------------------------------------------------------------ */}
 
         {/* A Range of Start------------------------------------------------------------ */}

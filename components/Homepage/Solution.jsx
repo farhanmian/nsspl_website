@@ -50,8 +50,8 @@ const Solution = () => {
               </ul>
             </div>
             <div className="mt-10">
-              <button className="bg-white text-primary border-2 border-primary px-4 py-1 rounded hover:bg-primary hover:text-white">
-                <Link href="/contact">contact us</Link>
+              <button className="border-2 border-primary px-4 py-1 rounded bg-primary text-white hover:shadow-md duration-200">
+                <Link href="/contact">Contact us</Link>
               </button>
             </div>
           </div>
@@ -92,8 +92,8 @@ const Solution = () => {
               </ul>
             </div>
             <div className="mt-10">
-              <button className="bg-white text-primary border-2 border-primary px-4 py-1 rounded hover:bg-primary hover:text-white">
-                <Link href="/contact">contact us</Link>
+              <button className="border-2 border-primary px-4 py-1 rounded bg-primary text-white hover:shadow-md duration-200">
+                <Link href="/contact">Contact us</Link>
               </button>
             </div>
           </div>
