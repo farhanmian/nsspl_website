@@ -92,16 +92,16 @@ export default function Home() {
         <Hero />
         {/* Counter start------------------------------------------------------------ */}
         <section className="homeAboutSection text-heading mt-12">
-          <div className="grid grid-cols-1 sm:mx-10 lg:grid-cols-[565px_minmax(0px,_1fr)_0px] items-center">
-            <div className="flex flex-col">
+          <div className="flex justify-between flex-col lg:flex-row-reverse items-center">
+            <div className="lg:max-w-screen-md lg:w-1/2">
               <div className="title mx-7 my-3 lg:my-9 lg:text-left text-center text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
-                <h1 className="font-bold sm:leading-[45px]">
+                <h1 className="font-bold text-left sm:leading-[45px]">
                   About
                   <span className="text-primary"> Us</span>
                 </h1>
               </div>
 
-              <p className="text-center text-gray-600 md:text-left leading-relaxed mx-7">
+              <p className="text-center text-gray-600 md:text-left leading-relaxed mx-7 max-w-screen-sm">
                 As one of the leading Information Technology consulting company,
                 NSS Private Limited delivers tailored IT services to
                 organizations Globally. With NSS as your partner, we can leap
@@ -112,10 +112,10 @@ export default function Home() {
               </p>
             </div>
 
-            <div className="flex flex-col my-10">
-              <div className="grid gap-8 my-4 px-5 sm:grid-cols-2 sm:px-10  md:grid-cols-2 lg:grid-cols-2">
-                <div className="flex flex-col p-10 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
-                  <h1 className="font-bold text-3xl text-heading text-center">
+            <div className="flex lg:max-w-screen-md lg:w-1/2 flex-col my-10">
+              <div className="grid gap-5 xl:gap-8 my-4 px-5 sm:grid-cols-2 lg:px-10  md:grid-cols-2 lg:grid-cols-2">
+                <div className="flex flex-col px-5 py-10 xl:p-10 w-full text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
+                  <h1 className="font-bold text-2xl xl:text-3xl text-heading text-center">
                     <span className="text-primary">
                       <CountUp end={500} duration={2} />+<br />
                     </span>{" "}
@@ -123,8 +123,8 @@ export default function Home() {
                   </h1>
                 </div>
 
-                <div className="flex flex-col p-10 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
-                  <h1 className="font-bold text-3xl text-heading text-center">
+                <div className="flex flex-col px-5 py-10 xl:p-10 w-full text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
+                  <h1 className="font-bold text-2xl xl:text-3xl text-heading text-center">
                     <span className="text-primary">
                       <CountUp end={100} duration={2} />%<br />
                     </span>{" "}
@@ -132,16 +132,16 @@ export default function Home() {
                   </h1>
                 </div>
 
-                <div className="flex flex-col p-10 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
-                  <h1 className="font-bold text-3xl text-heading text-center">
+                <div className="flex flex-col px-5 py-10 xl:p-10 w-full text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
+                  <h1 className="font-bold text-2xl xl:text-3xl text-heading text-center">
                     <span className="text-primary">
                       <CountUp end={20} duration={2} />+<br />
                     </span>
                     Years of Experience
                   </h1>
                 </div>
-                <div className="flex flex-col p-10 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
-                  <h1 className="font-bold text-3xl text-heading text-center">
+                <div className="flex flex-col px-5 py-10 xl:p-10 w-full text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
+                  <h1 className="font-bold text-2xl xl:text-3xl text-heading text-center">
                     <span className="text-primary">
                       <CountUp end={200} duration={2} />+<br />
                     </span>{" "}
