@@ -101,7 +101,7 @@ export default function Home() {
                 </h1>
               </div>
 
-              <p className="text-center text-gray-600 md:text-left leading-relaxed mx-7 max-w-screen-sm">
+              <p className="text-center text-gray-600 md:text-left leading-loose mx-7 max-w-lg">
                 As one of the leading Information Technology consulting company,
                 NSS Private Limited delivers tailored IT services to
                 organizations Globally. With NSS as your partner, we can leap
