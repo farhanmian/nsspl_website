@@ -69,9 +69,10 @@ const Appdev = () => {
               <span className="mt-2 lg:text-[17px] text-[12px] text-heading font-bold">
                 Or Call{" "}
                 <a
-                  style={{
-                    color: "#ff6701",
-                  }}
+                  // style={{
+                  //   color: "#ff6701",
+                  // }}
+                  className="text-primary"
                   href={"tel:919911283830"}
                 >
                   918448229553
@@ -99,7 +100,7 @@ const Appdev = () => {
 
       {/* Hero Section ENDS */}
       {/* OUTSHINE YOUR start------------------------------------------------------------ */}
-      <section className="bg-lightGray text-gray-600 body-font">
+      <section className="homeOurPartners text-gray-600 body-font">
         <div className=" mx-auto flex px-5 sm:mx-10 md:flex-row flex-col items-center col-nsspl">
           <p className={"text-2xl text-heading font-bold block-below-991"}>
             {" "}
@@ -144,7 +145,7 @@ const Appdev = () => {
 
           <div className="col-100">
             <img
-              src="/backgrounds/outshine.jpeg"
+              src="/backgrounds/outshine.png"
               width={600}
               height={400}
               className="lg:mr-[25px]"
@@ -155,7 +156,7 @@ const Appdev = () => {
       {/* OUTSHINE YOUR End-------------------------------------------------------------------------- */}
       <ConsultantBox />
       {/* What service start------------------------------------------------------------ */}
-      <section className="sm:pb-10 sm:mx-10">
+      <section className="sm:pb-10 sm:mx-10 mt-20 mb-14">
         <div className="title text-center items-center my-3 lg:my-9 text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
           <h1 className="font-bold sm:leading-[45px] text-heading horizontal-nsspl-padding">
             What <span className="text-primary"> Services </span> are you
@@ -163,7 +164,7 @@ const Appdev = () => {
           </h1>
         </div>
         <div className="grid text-gray-600 gap-6 sm:grid-cols-3 mx-5 md:grid-cols-3 lg:grid-cols-3">
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
+          <div className="portfolioSlideCard flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
             <h1 className="font-bold text-lg text-heading">
               <span className="text-primary">Android App Development</span>
             </h1>
@@ -175,7 +176,7 @@ const Appdev = () => {
             </p>
           </div>
 
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
+          <div className="portfolioSlideCard flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
             <h1 className="font-bold text-lg text-heading">
               <span className="text-primary">iOS App Development</span>
             </h1>
@@ -188,7 +189,7 @@ const Appdev = () => {
             </p>
           </div>
 
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white  rounded-xl shadow-lg justify-center items-left">
+          <div className="portfolioSlideCard flex-col p-6 text-left sm:mx-2 bg-white  rounded-xl shadow-lg justify-center items-left">
             <h1 className="font-bold text-lg text-heading">
               <span className="text-primary">Hybrid App Development</span>
             </h1>
@@ -201,7 +202,7 @@ const Appdev = () => {
             </p>
           </div>
 
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
+          <div className="portfolioSlideCard flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
             <h1 className="font-bold text-lg text-heading">
               <span className="text-primary">
                 Progressive Web App Development
@@ -216,7 +217,7 @@ const Appdev = () => {
             </p>
           </div>
 
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
+          <div className="portfolioSlideCard flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
             <h1 className="font-bold text-lg text-heading">
               <span className="text-primary">IoT Apps</span>
             </h1>
@@ -230,7 +231,7 @@ const Appdev = () => {
             </p>
           </div>
 
-          <div className="flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
+          <div className="portfolioSlideCard flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
             <h1 className="font-bold text-lg text-heading text-left">
               <span className="text-primary">M-Commerce App</span>
             </h1>
@@ -256,7 +257,7 @@ const Appdev = () => {
       {/* What service End-------------------------------------------------------------------------- */}
 
       {/* Why choose NSS start------------------------------------------------------------ */}
-      <section className="bg-lightGray lg:mt-0 mt-10 ">
+      <section className="portfolioSlideCard lg:mt-0 mt-10 ">
         <div className="grid grid-cols-1 sm:grid-cols- sm:mx-10 md:grid-cols-2 items-center col-nsspl flex-nsspl">
           <div className="flex flex-col col-100">
             <div className="title lg:text-left text-center mx-7 my-9 lg:leading-[50px] text-2xl sm:text-3xl md:text-4xl lg:text-4xl col-100 text-heading">

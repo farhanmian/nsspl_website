@@ -98,7 +98,7 @@ const Ecommerce = () => {
       {/* Hero Section ENDS */}
 
       {/* Top rated app development start------------------------------------------------------------ */}
-      <section className="bg-lightGray text-gray-600 body-font">
+      <section className="bgLinear-top text-gray-600 body-font">
         <div className=" mx-auto flex px-5 sm:mx-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 flex flex-col md:items-center md:text-left mb-16 md:mb-0 items-center text-center">
             <div className="title lg:text-left my-3 lg:my-9 text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
@@ -247,7 +247,7 @@ const Ecommerce = () => {
       {/*Our Range Of End-------------------------------------------------------------------------- */}
 
       {/* Features start------------------------------------------------------------ */}
-      <section className="bg-lightGray lg:mt-0 mt-10 pb-8">
+      <section className="homeAboutSection lg:mt-0 mt-10 pb-8">
         <div className="title text-center items-center my-3">
           <h1 className="font-bold sm:leading-[45px] text-heading pt-10 lg:pt-10 text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
             Explore Our{" "}
@@ -918,7 +918,7 @@ const Ecommerce = () => {
           </p>
         </div>
         <div className="grid sm:grid-cols-3 sm:mt-8 mx-7 sm:mx-20">
-          <div className="flex flex-col sm:min-h-[150px] items-center text-center gap-2 box-border border-[1px] p-5 rounded-[10px] border-primary">
+          <div className="flex flex-col portfolioSlideCard sm:min-h-[150px] items-center text-center gap-2 box-border border-[1px] p-5 rounded-[10px] border-primary">
             <img
               src="/icons/web-dev-icons/top-rated-ecomm-1.png"
               alt=""
@@ -935,7 +935,7 @@ const Ecommerce = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:min-h-[150px] items-center mt-5 gap-2 box-border border-[1px] lg:mt-0 lg:ml-5 p-5 rounded-[10px] border-primary">
+          <div className="flex flex-col portfolioSlideCard sm:min-h-[150px] items-center mt-5 gap-2 box-border border-[1px] lg:mt-0 lg:ml-5 p-5 rounded-[10px] border-primary">
             <img
               src="/icons/web-dev-icons/top-rated-ecomm-2.png"
               alt=""
@@ -952,7 +952,7 @@ const Ecommerce = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:min-h-[150px] mt-5 items-center gap-2 box-border border-[1px] lg:mt-0 lg:ml-5 p-5 rounded-[10px] border-primary">
+          <div className="flex flex-col portfolioSlideCard sm:min-h-[150px] mt-5 items-center gap-2 box-border border-[1px] lg:mt-0 lg:ml-5 p-5 rounded-[10px] border-primary">
             <img
               src="/icons/web-dev-icons/top-rated-ecomm-3.png"
               alt=""

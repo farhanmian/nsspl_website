@@ -74,7 +74,7 @@ const Backoffice = () => {
       {/* Hero Section ENDS */}
 
       {/* Web Apps start------------------------------------------------------------ */}
-      <section className=" bg-lightGray my-10">
+      <section className=" homeAboutSection my-10">
         <div className="grid grid-cols-1 sm:grid-cols-1 md:grid-cols-2 ">
           <div className="flex flex-col">
             <div className="title text-left mx-7 my-9 text-2xl sm:text-3xl md:text-4xl lg:text-4xl">

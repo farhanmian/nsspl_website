@@ -72,7 +72,7 @@ const Blockchain = () => {
       {/* Hero Section ENDS */}
 
       {/* NFT Marketplace start------------------------------------------------------------ */}
-      <section className="bg-lightGray sm:pt-5">
+      <section className="homeAboutSection sm:pt-5">
         <div className="title text-center items-center my-3 text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
           <h1 className="font-bold sm:leading-[45px] text-heading ">
             <span className="text-primary"> NFT Marketplace </span> Development
@@ -151,7 +151,7 @@ const Blockchain = () => {
       {/* NFT Marketplace End-------------------------------------------------------------------------- */}
 
       {/* Benefits of Availing Our start------------------------------------------------------------ */}
-      <section className="lg:mt-0 mt-5">
+      <section className="lg:mt-0 mt-5 py-10">
         <div className="grid grid-cols-1 sm:mx-10 lg:grid-cols-[510px_minmax(0px,_1fr)_0px] items-center">
           <div className="flex flex-col">
             <div className="title mx-7 my-3 lg:my-9 lg:text-left text-center text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
@@ -179,7 +179,7 @@ const Blockchain = () => {
 
           <div className="flex flex-col my-10">
             <div className="grid gap-8 my-4 px-5 sm:grid-cols-2 sm:px-10  md:grid-cols-2 lg:grid-cols-2">
-              <div className="flex flex-col p-2 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
+              <div className="portfolioSlideCard flex flex-col p-2 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
                 <img
                   src="/icons/web-dev-icons/security-audit-icon-a.svg"
                   alt=""
@@ -198,7 +198,7 @@ const Blockchain = () => {
                 </p>
               </div>
 
-              <div className="flex flex-col p-2 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
+              <div className="portfolioSlideCard flex flex-col p-2 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
                 <img
                   src="/icons/web-dev-icons/customized-solutions-icon-a.svg"
                   alt=""
@@ -215,7 +215,7 @@ const Blockchain = () => {
                 </p>
               </div>
 
-              <div className=" flex flex-col p-2 text-left sm:mx-2 bg-white  rounded-xl shadow-lg justify-center items-left gap-2">
+              <div className=" portfolioSlideCard flex flex-col p-2 text-left sm:mx-2 bg-white  rounded-xl shadow-lg justify-center items-left gap-2">
                 <img
                   src="/icons/web-dev-icons/intuitive-interface-icon-a.svg"
                   alt=""
@@ -232,7 +232,7 @@ const Blockchain = () => {
                 </p>
               </div>
 
-              <div className=" flex flex-col p-2 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
+              <div className=" portfolioSlideCard flex flex-col p-2 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
                 <img
                   src="/icons/web-dev-icons/trending-technology-icon-a.svg"
                   alt=""
@@ -263,7 +263,7 @@ const Blockchain = () => {
       {/* Benefits of Availing Our End-------------------------------------------------------------------------- */}
 
       {/* Features of NFT Marketplace start------------------------------------------------------------ */}
-      <section className="bg-lightGray sm:pt-3">
+      <section className="homeOurPartners sm:pt-3 mb-10">
         <div className="title text-center items-center my-3 text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
           <h1 className="font-bold sm:leading-[45px] text-heading pt-10 lg:pt-0">
             Features of{" "}
@@ -271,7 +271,7 @@ const Blockchain = () => {
           </h1>
         </div>
         <div className="grid sm:grid-cols-3 sm:mt-8 mx-7 sm:mx-20">
-          <div className="flex flex-col sm:min-h-[150px] items-center text-center gap-2 box-border border-[1px] p-5 rounded-[30px] border-primary">
+          <div className="bg-white flex flex-col sm:min-h-[150px] items-center text-center gap-2 box-border border-[1px] p-5 rounded-[30px] border-primary">
             <h1 className="font-bold text-md text-heading ml-4 text-left">
               STOREFRONT
             </h1>
@@ -282,7 +282,7 @@ const Blockchain = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:min-h-[150px] items-center mt-5 gap-2 box-border border-[1px] lg:mt-0 lg:ml-5 p-5 rounded-[30px] border-primary">
+          <div className="bg-white flex flex-col sm:min-h-[150px] items-center mt-5 gap-2 box-border border-[1px] lg:mt-0 lg:ml-5 p-5 rounded-[30px] border-primary">
             <h1 className="font-bold text-md text-heading ml-4 text-left">
               FILTERS
             </h1>
@@ -293,7 +293,7 @@ const Blockchain = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:min-h-[150px] mt-5 items-center gap-2 box-border border-[1px] lg:mt-0 lg:ml-5 p-5 rounded-[30px] border-primary">
+          <div className="bg-white flex flex-col sm:min-h-[150px] mt-5 items-center gap-2 box-border border-[1px] lg:mt-0 lg:ml-5 p-5 rounded-[30px] border-primary">
             <h1 className="font-bold text-md text-heading ml-4 text-left">
               SEARCHING FOR ITEMS
             </h1>
@@ -304,7 +304,7 @@ const Blockchain = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:min-h-[150px]  items-center gap-2 box-border border-[1px] mt-5 p-5 rounded-[30px] border-primary">
+          <div className="bg-white flex flex-col sm:min-h-[150px]  items-center gap-2 box-border border-[1px] mt-5 p-5 rounded-[30px] border-primary">
             <h1 className="font-bold text-md text-heading ml-4 text-left">
               CREATE MINING
             </h1>
@@ -315,7 +315,7 @@ const Blockchain = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:min-h-[150px]  items-center gap-2 box-border border-[1px] lg:ml-5 mt-5 p-5 rounded-[30px] border-primary">
+          <div className="bg-white flex flex-col sm:min-h-[150px]  items-center gap-2 box-border border-[1px] lg:ml-5 mt-5 p-5 rounded-[30px] border-primary">
             <h1 className="font-bold text-md text-heading ml-4 text-left">
               BUY AND BID
             </h1>
@@ -326,7 +326,7 @@ const Blockchain = () => {
             </p>
           </div>
 
-          <div className="flex flex-col sm:min-h-[150px]  items-center gap-2 box-border border-[1px] lg:ml-5 mt-5 p-5 rounded-[30px] border-primary">
+          <div className="bg-white flex flex-col sm:min-h-[150px]  items-center gap-2 box-border border-[1px] lg:ml-5 mt-5 p-5 rounded-[30px] border-primary">
             <h1 className="font-bold text-md text-heading ml-4 text-left">
               WALLET
             </h1>
@@ -364,7 +364,7 @@ const Blockchain = () => {
 
         <div className="flex flex-col my-5 mx-6 marketPlace_wrapper">
           <div className="grid gap-2 my-4 px-5 sm:grid-cols-2  md:grid-cols-2 lg:grid-cols-4">
-            <div className="flex flex-col pb-4 text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
+            <div className="flex flex-col pb-4 portfolioSlideCard text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
               <img
                 src="/backgrounds/art.jpg"
                 alt=""
@@ -379,7 +379,7 @@ const Blockchain = () => {
               </p>
             </div>
 
-            <div className="flex flex-col pb-4 text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
+            <div className="flex flex-col pb-4 portfolioSlideCard text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
               <img
                 src="/backgrounds/music.webp"
                 alt=""
@@ -394,7 +394,7 @@ const Blockchain = () => {
               </p>
             </div>
 
-            <div className="flex pb-4 flex-col text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
+            <div className="flex pb-4 flex-col portfolioSlideCard text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
               <img
                 src="/backgrounds/games.webp"
                 alt=""
@@ -409,7 +409,7 @@ const Blockchain = () => {
               </p>
             </div>
 
-            <div className="flex pb-4 flex-col text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
+            <div className="flex pb-4 flex-col portfolioSlideCard text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
               <img
                 src="/backgrounds/digital.jpg"
                 alt=""
@@ -426,7 +426,7 @@ const Blockchain = () => {
               </p>
             </div>
 
-            <div className="flex pb-4 flex-col text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
+            <div className="flex pb-4 flex-col portfolioSlideCard text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
               <img
                 src="/backgrounds/photography.jpg"
                 alt=""
@@ -441,7 +441,7 @@ const Blockchain = () => {
               </p>
             </div>
 
-            <div className="flex pb-4 flex-col text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
+            <div className="flex pb-4 flex-col portfolioSlideCard text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
               <img
                 src="/backgrounds/metaverse.jpeg"
                 alt=""
@@ -456,7 +456,7 @@ const Blockchain = () => {
               </p>
             </div>
 
-            <div className="flex pb-4 flex-col text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
+            <div className="flex pb-4 flex-col portfolioSlideCard text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
               <img
                 src="/backgrounds/domains.png"
                 alt=""
@@ -471,7 +471,7 @@ const Blockchain = () => {
               </p>
             </div>
 
-            <div className="flex pb-4 flex-col text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
+            <div className="flex pb-4 flex-col portfolioSlideCard text-center sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-center gap-2 mb-2">
               <img
                 src="/backgrounds/sports.jpg"
                 alt=""
@@ -498,7 +498,7 @@ const Blockchain = () => {
       {/* NFT MARKETPLACE SOFTWARE FOR VARIOUS MARKET End-------------------------------------------------------------------------- */}
 
       {/* Technology Engagement start------------------------------------------------------------ */}
-      <section className="bg-lightGray sm:pt-3">
+      <section className="homeOurPartners sm:pt-3 py-5">
         <div className="title text-center items-center my-3 text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
           <h1 className="font-bold sm:leading-[45px] text-heading pt-10 lg:pt-0">
             <span className="text-primary">Technology</span> Engagement

@@ -10,6 +10,7 @@ module.exports = {
         // standardGreen: "#ff6701",
         standardGreen: "#1f8d1b",
         primary: "#2AA126",
+        primaryLight: "#9bdf99de",
         lightGray: "#F7F8F8",
         para: "#7E7E7E",
         heading: "#777777",

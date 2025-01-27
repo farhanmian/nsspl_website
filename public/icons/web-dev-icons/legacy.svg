@@ -1,9 +1,9 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="1000" height="1000" viewBox="0 0 1000 1000" xml:space="preserve">
-<desc>Created with Fabric.js 3.5.0</desc>
-<defs>
+  <desc>Created with Fabric.js 3.5.0</desc>
+  <defs>
 </defs>
-<rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
-<g transform="matrix(1.9356 0 0 1.9356 499.9885 499.9887)" id="987199">
-<path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: rgb(255,153,85); fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-256.6715, -251.702)" d="M 21.844 17.813 v 20.843 l 252.062 103.28 l -18.03 12.814 L 21.843 58.844 v 47.5 l 192 78.344 l -102.813 73.218 l -3.968 2.844 l 0.032 4.844 l 0.156 19.75 l 223.313 88.562 l -0.094 20.094 l -223.033 -88.47 l 0.25 30.47 l 0.126 13.188 l 0.593 -0.22 v 0.594 l 221.875 90.75 l -0.217 45.282 L 491.5 454.188 l -160.625 -146.25 l -0.188 44.343 l -132.312 -54.124 l 91.03 -65.72 l 3.94 -2.842 l -0.064 -4.875 l -0.092 -7.657 l 0.218 0.093 l -1.156 -88.53 L 21.844 17.81 z M 273.78 164.97 l 0.75 55.155 l -96.53 69.72 l -50.53 -20.69 L 273.78 164.97 z" stroke-linecap="round"/>
-</g>
+  <rect x="0" y="0" width="100%" height="100%" fill="#ffffff"/>
+  <g transform="matrix(1.9356 0 0 1.9356 499.9885 499.9887)" id="987199">
+    <path style="stroke: none; stroke-width: 1; stroke-dasharray: none; stroke-linecap: butt; stroke-dashoffset: 0; stroke-linejoin: miter; stroke-miterlimit: 4; is-custom-font: none; font-file-url: none; fill: #2AA126; fill-rule: nonzero; opacity: 1;" vector-effect="non-scaling-stroke" transform=" translate(-256.6715, -251.702)" d="M 21.844 17.813 v 20.843 l 252.062 103.28 l -18.03 12.814 L 21.843 58.844 v 47.5 l 192 78.344 l -102.813 73.218 l -3.968 2.844 l 0.032 4.844 l 0.156 19.75 l 223.313 88.562 l -0.094 20.094 l -223.033 -88.47 l 0.25 30.47 l 0.126 13.188 l 0.593 -0.22 v 0.594 l 221.875 90.75 l -0.217 45.282 L 491.5 454.188 l -160.625 -146.25 l -0.188 44.343 l -132.312 -54.124 l 91.03 -65.72 l 3.94 -2.842 l -0.064 -4.875 l -0.092 -7.657 l 0.218 0.093 l -1.156 -88.53 L 21.844 17.81 z M 273.78 164.97 l 0.75 55.155 l -96.53 69.72 l -50.53 -20.69 L 273.78 164.97 z" stroke-linecap="round"/>
+  </g>
 </svg>

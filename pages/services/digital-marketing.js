@@ -96,8 +96,8 @@ const Ecommerce = () => {
           </div>
         </div>
       </section>
-      <section className="bg-lightGray my-5 py-5 nss-offer">
-        <div className="bg-lightGray mx-6 sm:py-10 sm:px-10">
+      <section className="homeAboutSection my-5 py-5 nss-offer">
+        <div className="mx-6 sm:py-10 sm:px-10">
           <div className="gap-4">
             <div className="title text-center items-center">
               <h1 className="font-bold sm:leading-[45px] text-heading pt-10 lg:pt-0 text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
@@ -320,7 +320,7 @@ const Ecommerce = () => {
           </div>
           <div className="grid sm:grid-cols-1 xl:grid-cols-3 gap-8 sm:mt-8 mx-10">
             {/* <div className=" flex-col p-6 text-center sm:mx-2 bg-white  border-[2px] rounded-[10px]  justify-center items-center"> */}
-            <div className=" flex flex-col  p-7 text-center bg-white  border-[2px] rounded-[10px]  items-center">
+            <div className="portfolioSlideCard flex flex-col  p-7 text-center bg-white  border-[2px] rounded-[10px]  items-center">
               <h1 className="text-center text-heading text-2xl font-bold sm:leading-[45px]">
                 Starter Plan
               </h1>
@@ -378,7 +378,7 @@ const Ecommerce = () => {
               </Link>
             </div>
 
-            <div className=" flex flex-col  p-7 text-center bg-white  border-[2px] rounded-[10px]  items-center">
+            <div className="portfolioSlideCard flex flex-col  p-7 text-center bg-white  border-[2px] rounded-[10px]  items-center">
               <h1 className="text-center text-heading text-2xl font-bold sm:leading-[45px]">
                 Premium Plan
               </h1>
@@ -436,7 +436,7 @@ const Ecommerce = () => {
               </Link>
             </div>
 
-            <div className=" flex flex-col  p-7 text-center bg-white  border-[2px] rounded-[10px]  items-center">
+            <div className="portfolioSlideCard flex flex-col  p-7 text-center bg-white  border-[2px] rounded-[10px]  items-center">
               <h1 className="text-center text-heading text-2xl font-bold sm:leading-[45px]">
                 Business Plan
               </h1>

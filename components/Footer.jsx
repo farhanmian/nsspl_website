@@ -6,7 +6,7 @@ function Footer() {
   return (
     <>
       <div
-        id="footer"
+        // id="footer"
         className="grid grid-cols-1 gap-4 px-10 py-10 items-start justify-around sm:grid-cols-2 md:grid-cols-3 md:gap-8 text-heading"
       >
         <div className="container ">
@@ -14,13 +14,14 @@ function Footer() {
             NSS{" "}
             <span className={"capitalize text-xl text-bold"}>Pvt. Ltd.</span>{" "}
           </h1>
-          <h4 className=" my-3">
-            <span className="font-semibold">US OFFICE:</span> Gols Inc Seattle,
-            WA
-          </h4>
 
           <h4 className=" my-3">
             <span className="font-semibold">Head Office:</span> Delhi, India
+          </h4>
+
+          <h4 className=" my-3">
+            <span className="font-semibold">US OFFICE:</span> Gols Inc Seattle,
+            WA
           </h4>
         </div>
 

@@ -60,7 +60,7 @@ const ContractDeveloper = () => {
           </div>
         </div>
       </section>
-      <section className="bg-lightGray py-10">
+      <section className="homeAboutSection py-10 mb-10">
         <div className="title text-center items-center text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
           <h1 className="font-bold sm:leading-[45px] text-heading ">
             Benefits of{" "}
@@ -103,6 +103,7 @@ const ContractDeveloper = () => {
           </div>
         </div>
       </section>
+
       {/* Hero Section ENDS */}
       <section className="nss-offer">
         <div className="sm:py-10 sm:px-10">
@@ -114,7 +115,7 @@ const ContractDeveloper = () => {
             </h1>
 
             <div className="grid sm:grid-cols-1 xl:grid-cols-3 gap-8 sm:mt-8 text-heading">
-              <div className="flex flex-col sm:min-h-[250px] bg-white shadow-lg rounded-[10px] items-center p-12 mt-top">
+              <div className="portfolioSlideCard flex flex-col sm:min-h-[250px] bg-white shadow-lg rounded-[10px] items-center p-12 mt-top">
                 <img src="/icons/transperency.svg" width={70} height={70} />
                 <h1 className="font-bold text-3xl p-4 hover:text-primary text-center">
                   Transparency in the process
@@ -125,7 +126,7 @@ const ContractDeveloper = () => {
                 </p>
               </div>
 
-              <div className="flex flex-col sm:min-h-[250px] bg-white shadow-lg rounded-[10px] items-center p-12 mt-bottom">
+              <div className="portfolioSlideCard flex flex-col sm:min-h-[250px] bg-white shadow-lg rounded-[10px] items-center p-12 mt-bottom">
                 <img src="/icons/direct_hire.svg" width={70} height={70} />
                 <h1 className="font-bold text-3xl p-4 hover:text-primary text-center ">
                   Direct Hire
@@ -137,7 +138,7 @@ const ContractDeveloper = () => {
                 </p>
               </div>
 
-              <div className="flex flex-col sm:min-h-[250px] bg-white shadow-lg rounded-[10px] items-center p-12 mt-top">
+              <div className="portfolioSlideCard flex flex-col sm:min-h-[250px] bg-white shadow-lg rounded-[10px] items-center p-12 mt-top">
                 <img src="/icons/contact_hiring.svg" width={70} height={70} />
                 <h1 className="font-bold text-3xl p-4 hover:text-primary text-center ">
                   Contract Hiring
@@ -159,7 +160,7 @@ const ContractDeveloper = () => {
         </div>
       </section>
 
-      <section className="bg-lightGray my-5 agile-wrapper">
+      <section className="homeOurPartners my-5 agile-wrapper">
         <div className="sm:py-10 sm:px-10">
           <div className="flex flex-col justify-center items-center gap-4">
             <h1 className="font-bold text-center text-4xl text-heading pb-4">
@@ -168,7 +169,7 @@ const ContractDeveloper = () => {
 
             <div className="grid sm:grid-cols-2 xl:grid-cols-4 gap-8 sm:mt-8 text-heading">
               <div className="flex flex-col sm:min-h-[250px]  items-center gap-4 ">
-                <div className="circle-icon">
+                <div className="circle-icon bg-white">
                   <img src="/icons/agile1.svg" width={52} height={50} />
                 </div>
 
@@ -182,7 +183,7 @@ const ContractDeveloper = () => {
               </div>
 
               <div className="flex flex-col sm:min-h-[250px]  items-center gap-4 ">
-                <div className="circle-icon">
+                <div className="circle-icon bg-white">
                   <img src="/icons/agile2.svg" width={52} height={50} />
                 </div>
 
@@ -196,7 +197,7 @@ const ContractDeveloper = () => {
               </div>
 
               <div className="flex flex-col sm:min-h-[250px]  items-center gap-4 ">
-                <div className="circle-icon">
+                <div className="circle-icon bg-white">
                   <img src="/icons/agile3.svg" width={52} height={50} />
                 </div>
                 <h1 className="font-bold text-xl  hover:text-primary text-center">
@@ -209,7 +210,7 @@ const ContractDeveloper = () => {
               </div>
 
               <div className="flex flex-col sm:min-h-[250px]  items-center gap-4 ">
-                <div className="circle-icon">
+                <div className="circle-icon bg-white">
                   <img src="/icons/agile4.svg" width={52} height={50} />
                 </div>
 
@@ -241,7 +242,7 @@ const ContractDeveloper = () => {
           </h1>
         </div>
         <div className="grid gap-6 text-gray-600 sm:grid-cols-2 lg:mx-16 mx-7 md:grid-cols-2 lg:grid-cols-3">
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white shadow-lg justify-center items-left text-heading">
+          <div className=" bgLinear-top border border-primaryLight flex-col p-6 text-left sm:mx-2 bg-white shadow-lg justify-center items-left text-heading">
             <div className="flex items-center">
               <img
                 src="/icons/web-dev-icons/custom-enterprise.svg"
@@ -262,7 +263,7 @@ const ContractDeveloper = () => {
             </p>
           </div>
 
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white  shadow-lg justify-center items-left text-heading">
+          <div className=" bgLinear-top border border-primaryLight flex-col p-6 text-left sm:mx-2 bg-white  shadow-lg justify-center items-left text-heading">
             <div className="flex items-center">
               <img
                 src="/icons/web-dev-icons/mobility.svg"
@@ -282,7 +283,7 @@ const ContractDeveloper = () => {
             </p>
           </div>
 
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white   shadow-lg justify-center items-left text-heading">
+          <div className=" bgLinear-top border border-primaryLight flex-col p-6 text-left sm:mx-2 bg-white   shadow-lg justify-center items-left text-heading">
             <div className="flex items-center">
               <img
                 src="/icons/web-dev-icons/transform.svg"

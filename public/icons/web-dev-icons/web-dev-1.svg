@@ -38,7 +38,7 @@
    <rect
    x="249.405"
    y="42.25"
-   style="fill:#ffb380"
+   style="fill:#2AA126"
    width="252.602"
    height="274.792"
    id="rect1547" />
@@ -72,42 +72,42 @@
       <rect
    x="44.22"
    y="50.8"
-   style="fill:#ff6600"
+   style="fill:#ffffff"
    width="125.202"
    height="15.983"
    id="rect1557" />
       <rect
    x="44.22"
    y="92.41"
-   style="fill:#ff6600"
+   style="fill:#ffffff"
    width="70.659"
    height="15.983"
    id="rect1559" />
       <rect
    x="44.22"
    y="134.019"
-   style="fill:#ff6600"
+   style="fill:#ffffff"
    width="125.202"
    height="15.983"
    id="rect1561" />
       <rect
    x="44.22"
    y="175.629"
-   style="fill:#ff6600"
+   style="fill:#ffffff"
    width="70.659"
    height="15.983"
    id="rect1563" />
       <rect
    x="44.22"
    y="217.239"
-   style="fill:#ff6600"
+   style="fill:#ffffff"
    width="125.202"
    height="15.983"
    id="rect1565" />
       <rect
    x="44.22"
    y="258.848"
-   style="fill:#ff6600"
+   style="fill:#ffffff"
    width="70.659"
    height="15.983"
    id="rect1567" />
@@ -115,18 +115,18 @@
    <g
    id="g1577">
       <polygon
-   style="fill:#ff6600"
+   style="fill:#ffffff"
    points="328.089,228.44 279.115,179.466 328.089,130.491 338.45,140.852 299.835,179.466    338.45,218.08  "
    id="polygon1571" />
       <polygon
-   style="fill:#ff6600"
+   style="fill:#ffffff"
    points="423.326,228.44 412.967,218.08 451.581,179.466 412.967,140.852 423.326,130.491    472.302,179.466  "
    id="polygon1573" />
       <rect
    x="368.382"
    y="123.401"
    transform="matrix(-0.9699 -0.2436 0.2436 -0.9699 696.379 445.0679)"
-   style="fill:#ff6600"
+   style="fill:#ffffff"
    width="14.652"
    height="112.152"
    id="rect1575" />

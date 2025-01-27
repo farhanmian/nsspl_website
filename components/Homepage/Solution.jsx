@@ -10,7 +10,7 @@ const Solution = () => {
 
       <div className="grid xl:grid-cols-2 gap-4 mt-4 px-4 sm:px-20 sm:min-h-[650px]">
         {/* first box */}
-        <div className="grid sm:grid-cols-[1fr_2fr] justify-center rounded-lg shadow-lg py-10 px-10 gap-16">
+        <div className="portfolioSlideCard grid sm:grid-cols-[1fr_2fr] justify-center rounded-lg shadow-lg py-10 px-10 gap-16">
           <div className="flex justify-center sm:block">
             <img src="/icons/enterprise.svg" height={136} width={142} />
           </div>
@@ -57,7 +57,7 @@ const Solution = () => {
           </div>
         </div>
         {/* second box */}
-        <div className="grid sm:grid-cols-[1fr_2fr] justify-center rounded-lg shadow-lg py-10 px-10 gap-16">
+        <div className="portfolioSlideCard grid sm:grid-cols-[1fr_2fr] justify-center rounded-lg shadow-lg py-10 px-10 gap-16">
           <div className="flex justify-center sm:block">
             <img src="/icons/startup.svg" height={136} width={142} />
           </div>

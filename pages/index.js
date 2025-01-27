@@ -1,6 +1,10 @@
 import react, { useState } from "react";
 import Link from "next/link";
 import Awards from "../components/Homepage/Awards";
+
+import dynamic from "next/dynamic";
+import { Suspense } from "react";
+
 import Hero from "../components/Homepage/Hero";
 import Partners from "../components/Homepage/Partners";
 import Services from "../components/Homepage/Services";
@@ -13,7 +17,15 @@ import Head from "next/head";
 import PortfolioSlideNew from "../components/Homepage/PortfolioSlideNew";
 import { BsCheckCircleFill } from "react-icons/bs";
 import CountUp from "react-countup";
-import LatestTechnologies from "../components/Homepage/LatestTechnologies/LatestTechnologies";
+
+// import LatestTechnologies from "../components/Homepage/LatestTechnologies/LatestTechnologies";
+
+const LatestTechnologies = dynamic(
+  () => import("../components/Homepage/LatestTechnologies/LatestTechnologies"),
+  {
+    suspense: true,
+  }
+);
 
 const technologiesData = [
   [
@@ -155,7 +167,14 @@ export default function Home() {
         {/* Counter End-------------------------------------------------------------------------- */}
 
         {/* We create Start------------------------------------------------------------ */}
-        <LatestTechnologies />
+        {/* <LatestTechnologies /> */}
+        <Suspense
+          fallback={() => (
+            <div className="h-[600px] max-w-screen-2xl w-[90%] bg-gray-300 mx-auto"></div>
+          )}
+        >
+          <LatestTechnologies />
+        </Suspense>
 
         {/* <section className="technology text-heading">
           <div className="flex px-5 lg:px-12 lg:mx-10 md:flex-row tech-inner">

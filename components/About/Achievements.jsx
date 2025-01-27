@@ -2,7 +2,7 @@ import React from "react";
 
 const Achievements = () => {
   return (
-    <div className=" bg-lightGray py-10">
+    <div className="bgLinear-top border-t border-primaryLight py-10">
       <div>
         <h1 className="text-heading text-[42px] font-bold text-center">
           Explore <span className="text-primary"> Achievements</span>

@@ -8,7 +8,7 @@ function WebDev() {
       <section className="text-gray-600 body-font">
         <div className=" mx-auto flex px-5 py-2 sm:mx-10 md:flex-row flex-col items-center">
           <div className="lg:flex-grow md:w-1/2 lg:pr-24 flex flex-col md:items-center md:text-left mb-16 md:mb-0 items-center text-center">
-            <h1 className="title-font text-2xl z-10 sm:leading-[44px] sm:text-[40px] font-bold mb-4 text-gray-900 ">
+            <h1 className="title-font text-2xl z-10 sm:leading-[44px] sm:text-[40px] font-bold mb-4 ">
               Web App{" "}
               <span className="text-primary"> Development Services</span>
             </h1>
@@ -40,8 +40,8 @@ function WebDev() {
       </section>
       {/* Hero Section ENDS */}
 
-      <div className="grid gap-4 bg-gray-300 py-4 sm:grid-cols-2 sm:px-10  md:grid-cols-3 lg:grid-cols-4  justify-items-center xl:grid-cols-8 text-heading 2xl:grid-cols-8">
-        <div className="bg-white w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
+      <div className="mb-16 grid gap-4 homeOurPartners py-4 sm:grid-cols-2 sm:px-10  md:grid-cols-3 lg:grid-cols-4  justify-items-center xl:grid-cols-8 text-heading 2xl:grid-cols-8">
+        <div className="bg-white border border-primaryLight duration-200 w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
           <img
             className="stroke-primary-500"
             src="/icons/web-dev-icons/web-dev-1.svg"
@@ -50,7 +50,7 @@ function WebDev() {
           />
           <h1>Custom Web Development</h1>
         </div>
-        <div className="text-center bg-white w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
+        <div className="text-center bg-white border border-primaryLight duration-200 w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
           <img
             src="/icons/web-dev-icons/customer-relation-1.svg"
             height={75}
@@ -58,7 +58,7 @@ function WebDev() {
           />
           <h1>Customer Relationship Management</h1>
         </div>
-        <div className="text-center bg-white w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
+        <div className="text-center bg-white border border-primaryLight duration-200 w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
           <img
             src="/icons/web-dev-icons/cloud-solution-1.svg"
             height={75}
@@ -66,7 +66,7 @@ function WebDev() {
           />
           <h1>Cloud Solutions</h1>
         </div>
-        <div className="text-center bg-white w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
+        <div className="text-center bg-white border border-primaryLight duration-200 w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
           <img
             src="/icons/web-dev-icons/third-party-integration-1.svg"
             height={75}
@@ -74,7 +74,7 @@ function WebDev() {
           />
           <h1>Third-party integrations (CRM and more)</h1>
         </div>
-        <div className="text-center bg-white w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
+        <div className="text-center bg-white border border-primaryLight duration-200 w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
           <img
             src="/icons/web-dev-icons/workflow-management-1.svg"
             height={75}
@@ -82,7 +82,7 @@ function WebDev() {
           />
           <h1>Workflow Management</h1>
         </div>
-        <div className="text-center bg-white w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
+        <div className="text-center bg-white border border-primaryLight duration-200 w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
           <img
             src="/icons/web-dev-icons/enterprise-web-development-1.svg"
             height={75}
@@ -90,7 +90,7 @@ function WebDev() {
           />
           <h1>Enterprise Web Development</h1>
         </div>
-        <div className="text-center bg-white w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
+        <div className="text-center bg-white border border-primaryLight duration-200 w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
           <img
             src="/icons/web-dev-icons/e-commerce-1.svg"
             height={75}
@@ -98,7 +98,7 @@ function WebDev() {
           />
           <h1>E-Commerce, B2B & B2C</h1>
         </div>
-        <div className="text-center bg-white w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
+        <div className="text-center bg-white border border-primaryLight duration-200 w-[240px] sm:w-full hover:scale-105 shadow-md rounded flex flex-col justify-center items-center gap-2 p-4 sm:p-8">
           <img
             src="/icons/web-dev-icons/custom-business-1.svg"
             height={75}
@@ -166,7 +166,7 @@ function WebDev() {
 
       {/* start customised web application */}
 
-      <section className="bg-lightGray container-fluid py-2">
+      <section className="border-t border-primaryLight my-10 container-fluid py-2">
         <div className="title text-center py-9 text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
           <h1>
             Customized{" "}
@@ -179,7 +179,7 @@ function WebDev() {
         </div>
 
         <div className="grid gap-8 my-4 px-5 sm:grid-cols-2 sm:px-10  md:grid-cols-2 lg:grid-cols-2">
-          <div className="flex flex-col p-2 text-center sm:mx-2 bg-lightGray rounded-xl shadow-lg justify-center items-center gap-4">
+          <div className="portfolioSlideCard flex flex-col p-2 text-center sm:mx-2 bg-lightGray rounded-xl shadow-lg justify-center items-center gap-4">
             <img
               src="/icons/web-dev-icons/webdev.svg"
               alt=""
@@ -198,7 +198,7 @@ function WebDev() {
             </p>
           </div>
 
-          <div className="flex flex-col p-2 text-center sm:mx-2 bg-lightGray rounded-xl shadow-lg justify-center items-center gap-4">
+          <div className="portfolioSlideCard flex flex-col p-2 text-center sm:mx-2 bg-lightGray rounded-xl shadow-lg justify-center items-center gap-4">
             <img
               src="/icons/web-dev-icons/quality.svg"
               alt=""
@@ -216,7 +216,7 @@ function WebDev() {
             </p>
           </div>
 
-          <div className=" flex flex-col p-2 text-center sm:mx-2 bg-lightGray  rounded-xl shadow-lg justify-center items-center gap-4">
+          <div className=" portfolioSlideCard flex flex-col p-2 text-center sm:mx-2 bg-lightGray  rounded-xl shadow-lg justify-center items-center gap-4">
             <img
               src="/icons/web-dev-icons/cloud.svg"
               alt=""
@@ -234,7 +234,7 @@ function WebDev() {
             </p>
           </div>
 
-          <div className=" flex flex-col p-2 text-center sm:mx-2 bg-lightGray rounded-xl shadow-lg justify-center items-center gap-4">
+          <div className=" portfolioSlideCard flex flex-col p-2 text-center sm:mx-2 bg-lightGray rounded-xl shadow-lg justify-center items-center gap-4">
             <img
               src="/icons/web-dev-icons/integration.svg"
               alt=""
@@ -251,7 +251,8 @@ function WebDev() {
               the right course of action.
             </p>
           </div>
-          <div className=" flex flex-col p-2 text-center sm:mx-2 bg-lightGray rounded-xl shadow-lg justify-center items-center gap-4">
+
+          <div className=" portfolioSlideCard flex flex-col p-2 text-center sm:mx-2 bg-lightGray rounded-xl shadow-lg justify-center items-center gap-4">
             <img
               src="/icons/web-dev-icons/team.svg"
               alt=""
@@ -271,7 +272,7 @@ function WebDev() {
             </p>
           </div>
 
-          <div className="flex flex-col p-2 text-center sm:mx-2 bg-lightGray rounded-xl shadow-lg justify-center items-center gap-4">
+          <div className="portfolioSlideCard flex flex-col p-2 text-center sm:mx-2 bg-lightGray rounded-xl shadow-lg justify-center items-center gap-4">
             <img
               src="/icons/web-dev-icons/agile.svg"
               alt=""
@@ -289,7 +290,7 @@ function WebDev() {
             </p>
           </div>
 
-          <div className=" flex flex-col p-2 text-center sm:mx-2 bg-lightGray  rounded-xl shadow-lg justify-center items-center gap-4">
+          <div className=" portfolioSlideCard flex flex-col p-2 text-center sm:mx-2 bg-lightGray  rounded-xl shadow-lg justify-center items-center gap-4">
             <img
               src="/icons/web-dev-icons/cycle.svg"
               alt=""
@@ -307,7 +308,7 @@ function WebDev() {
             </p>
           </div>
 
-          <div className=" flex flex-col p-2 text-center sm:mx-2 bg-lightGray rounded-xl shadow-lg justify-center items-center gap-4">
+          <div className=" portfolioSlideCard flex flex-col p-2 text-center sm:mx-2 bg-lightGray rounded-xl shadow-lg justify-center items-center gap-4">
             <img
               src="/icons/web-dev-icons/support.svg"
               alt=""
@@ -330,7 +331,7 @@ function WebDev() {
 
       {/* start  why choose nsspl */}
 
-      <section className="container-fluid py-2">
+      <section className="bgLinear-top border-b border-primaryLight pb-14 container-fluid py-7">
         <div className="px-2 grid grid-cols-1 sm:grid-cols-1  ">
           {/* <div className="flex flex-col my-8 items-center lg:-ml-20 ">
             <img src="/icons/web-dev-icons/men.png" width={200} height={300} />
@@ -350,7 +351,7 @@ function WebDev() {
               </p>
 
               <div className="grid grid-cols-1 px-4 sm:grid-cols-2 sm:px-10 gap-6">
-                <div className="p-4 shadow-lg flex flex-col items-center border-gray-300  hover:text-white rounded-lg text-center hover:bg-primary transition-shadow">
+                <div className="portfolioSlideCard duration-200 p-4 shadow-lg flex flex-col items-center border-gray-300  rounded-lg text-center hover:bg-primary transition-shadow">
                   <svg
                     className="h-10 w-10"
                     xmlns="http://www.w3.org/2000/svg"
@@ -373,7 +374,7 @@ function WebDev() {
                     deadlines
                   </p>
                 </div>
-                <div className="p-4 shadow-lg flex flex-col items-center border-gray-300 hover:text-white rounded-lg text-center hover:bg-primary ">
+                <div className="portfolioSlideCard duration-200 p-4 shadow-lg flex flex-col items-center border-gray-300 rounded-lg text-center hover:bg-primary ">
                   <svg
                     className="h-10 w-10"
                     xmlns="http://www.w3.org/2000/svg"
@@ -398,7 +399,7 @@ function WebDev() {
                   </p>
                 </div>
 
-                <div className="p-4 shadow-lg flex flex-col items-center border-gray-300 hover:text-white rounded-lg text-center hover:bg-primary ">
+                <div className="portfolioSlideCard duration-200 p-4 shadow-lg flex flex-col items-center border-gray-300 rounded-lg text-center hover:bg-primary ">
                   <svg
                     className="h-10 w-10 my-4"
                     xmlns="http://www.w3.org/2000/svg"
@@ -430,7 +431,7 @@ function WebDev() {
                   </p>
                 </div>
 
-                <div className="p-4 shadow-lg flex flex-col items-center border-gray-300 hover:text-white rounded-lg text-center hover:bg-primary ">
+                <div className="portfolioSlideCard duration-200 p-4 shadow-lg flex flex-col items-center border-gray-300 rounded-lg text-center hover:bg-primary ">
                   <svg
                     className="h-10 w-10 my-4"
                     xmlns="http://www.w3.org/2000/svg"

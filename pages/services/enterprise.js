@@ -99,7 +99,7 @@ function Enterprise() {
           </h1>
         </div>
         <div className="grid gap-6 text-gray-600 sm:grid-cols-3 lg:mx-16 mx-7 md:grid-cols-3 lg:grid-cols-3">
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
+          <div className=" portfolioSlideCard flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
             <div className="flex">
               <img
                 src="/icons/web-dev-icons/custom-enterprise.svg"
@@ -121,7 +121,7 @@ function Enterprise() {
             </p>
           </div>
 
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
+          <div className=" portfolioSlideCard flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
             <div className="flex">
               <img
                 src="/icons/web-dev-icons/mobility.svg"
@@ -142,7 +142,7 @@ function Enterprise() {
             </p>
           </div>
 
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white  rounded-xl shadow-lg justify-center items-left">
+          <div className=" portfolioSlideCard flex-col p-6 text-left sm:mx-2 bg-white  rounded-xl shadow-lg justify-center items-left">
             <div className="flex">
               <img
                 src="/icons/web-dev-icons/transform.svg"
@@ -162,7 +162,7 @@ function Enterprise() {
             </p>
           </div>
 
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
+          <div className=" portfolioSlideCard flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
             <div className="flex">
               <img
                 src="/icons/web-dev-icons/data.svg"
@@ -182,7 +182,7 @@ function Enterprise() {
             </p>
           </div>
 
-          <div className=" flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
+          <div className=" portfolioSlideCard flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
             <div className="flex">
               <img
                 src="/icons/web-dev-icons/software.svg"
@@ -202,7 +202,7 @@ function Enterprise() {
             </p>
           </div>
 
-          <div className="flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
+          <div className="portfolioSlideCard flex-col p-6 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left">
             <div className="flex">
               <img
                 src="/icons/web-dev-icons/legacy.svg"
@@ -286,7 +286,7 @@ function Enterprise() {
       {/* Enterprise Software End-------------------------------------------------------------------------- */}
 
       {/* Counter Value start------------------------------------------------------------ */}
-      <section className="bg-lightGray lg:mt-0 mt-10">
+      <section className="homeOurPartners lg:mt-0 mt-10">
         <div className="grid sm:grid-cols-3 pt-10 lg:px-20 lg:gap-[90px] gap-[55px]">
           <div className="flex flex-col py-12  items-center gap-4 lg:border-t-2 lg:border-b-0 border-b-2">
             <h1 className="font-bold text-4xl text-heading text-center">

@@ -57,10 +57,17 @@ a {
   background-image: linear-gradient(to right, #fff 12%, #2aa126 60%);
 }
 #startYourProject {
-  background-image: linear-gradient(to left, #9bdf99de 12%, #33a72f 60%);
+  background-image: linear-gradient(
+    to right,
+    #aee7acde 0%,
+    #4ebf4a 40%,
+    #4ebf4a 60%,
+    #aee7acde
+  );
 }
-#footer {
-  background-image: linear-gradient(to top, white, #d2ecd2);
+.bgLinear-top {
+  background-image: linear-gradient(to top, white, #d2ecd258);
+  /* background-image: linear-gradient(to top, white, #c3c3c36a); */
 }
 
 .homeAboutSection {

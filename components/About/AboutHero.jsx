@@ -5,7 +5,7 @@ const AboutHero = () => {
     <section className="text-gray-600 body-font">
       <div className=" mx-auto flex px-5 py-10 sm:mx-10 md:flex-row flex-col items-center">
         <div className="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-center md:text-left mb-16 md:mb-0 items-center text-center">
-          <h1 className="mr-auto title-font sm:text-left text-[54px] font-bold mb-3 text-gray-900">
+          <h1 className="mr-auto title-font sm:text-left text-[54px] font-bold mb-3">
             About <span className="text-primary"> Us </span>
           </h1>
           <p className="mb-4 text-justify text-sm leading-relaxed">
