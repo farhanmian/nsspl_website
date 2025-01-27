@@ -190,7 +190,7 @@ const Header = () => {
               </ul>
             </div>
           </li>
-          <li className="  placeholder:hover:text-primary border-white cursor-pointer transition-all md:ml-8 text-base md:my-0 my-7">
+          {/* <li className="  placeholder:hover:text-primary border-white cursor-pointer transition-all md:ml-8 text-base md:my-0 my-7">
             <div className="dropdown sm:dropdown-hover">
               <label
                 tabIndex="0"
@@ -230,7 +230,7 @@ const Header = () => {
                 </li>
               </ul>
             </div>
-          </li>
+          </li> */}
 
           <li className="text-white font-medium md:hover:border-b-2 border-white cursor-pointer transition-all md:ml-8 text-base md:my-0 my-7">
             <Link href="/projects">
