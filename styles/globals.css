@@ -6,7 +6,9 @@
 
 :root {
   --text-color: #131313;
-  --color-primary: #2aa126;
+  --color-primary: #7dd37a;
+  --color-primary-light: #9bdf99de;
+  --color-primary-normal-dark: #2aa126;
   --color-primary-dark: #1f921b;
   --gray-666: #666666;
   --gray-e1e1: #e1e1e1;
@@ -26,17 +28,20 @@ body {
   font-family: "Montserrat", serif;
 
   display: block;
-  color: #221c1a;
-}
-
-#navbar {
-  background-image: linear-gradient(to right, #fff 12%, #2aa126 60%);
+  color: #777;
 }
 
 .text-gray-600,
 .text-heading,
 .text-para {
-  color: #221c1a;
+  color: #777;
+}
+
+.text-primary {
+  color: var(--color-primary);
+}
+.text-primary-dark {
+  color: var(--color-primary-normal-dark);
 }
 
 a {
@@ -46,6 +51,32 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+#navbar {
+  background-image: linear-gradient(to right, #fff 12%, #2aa126 60%);
+}
+#startYourProject {
+  background-image: linear-gradient(to left, #9bdf99de 12%, #33a72f 60%);
+}
+#footer {
+  background-image: linear-gradient(to top, white, #d2ecd2);
+}
+
+.homeAboutSection {
+  background-image: linear-gradient(to right, white, #e4f3e4);
+}
+.homeAccelerateGrowthCard {
+  background-image: linear-gradient(to right bottom, white, #e4f3e4);
+  border: 1px solid var(--color-primary-light);
+  border-radius: 4px;
+}
+.portfolioSlideCard {
+  background-image: linear-gradient(to bottom, white, #e4f3e4da);
+  border: 1px solid var(--color-primary-light);
+}
+.homeOurPartners {
+  background-image: linear-gradient(to left, white, #e4f3e4);
 }
 
 .caption {
@@ -134,7 +165,7 @@ a {
   position: fixed;
   width: 60px;
   height: 60px;
-  bottom: 80px;
+  bottom: 60px;
   right: 20px;
   left: unset;
   border-radius: 50px;

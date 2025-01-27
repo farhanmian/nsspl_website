@@ -5,7 +5,7 @@ import Image from "next/image";
 
 const Presence = () => {
   return (
-    <section className=" py-2 flex flex-col items-center xl:px-20">
+    <section className=" py-2 flex flex-col items-center xl:px-20 mb-16">
       <h1 className=" text-[42px] font-bold text-heading text-center">
         Our <span className="text-primary"> Presence</span>
       </h1>

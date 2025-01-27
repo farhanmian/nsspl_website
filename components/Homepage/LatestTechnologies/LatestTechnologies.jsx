@@ -54,10 +54,29 @@ const cardData = [
 const settings = {
   dots: false,
   infinite: true,
-  speed: 500,
   slidesToShow: 4,
   slidesToScroll: 1,
-  initialSlide: 0,
+  autoplay: true,
+  speed: 2000,
+  autoplaySpeed: 2000,
+  cssEase: "linear",
+
+  pauseOnHover: true,
+  pauseOnFocus: true,
+
+  // dots: false,
+  // infinite: true,
+  // autoplay: true,
+  // autoplaySpeed: 3000,
+  // pauseOnHover: true,
+  // pauseOnFocus: true,
+  // draggable: true,
+  // swipeToSlide: true,
+  // cssEase: "linear",
+  // speed: 500,
+  // slidesToShow: 4,
+  // slidesToScroll: 1,
+  // initialSlide: 0,
   nextArrow: (
     <button id="sliderBtn">
       <ArrowRight />
@@ -95,8 +114,8 @@ const LatestTechnologies = () => {
       id="sliderContainer"
       className="px-5 lg:px-12 lg:mx-10 mt-20 mb-14"
     >
-      <div className="title lg:text-left my-3 lg:my-9 text-2xl sm:text-3xl md:text-4xl lg:text-4xl max-w-2xl">
-        <h1 className="font-bold sm:leading-[45px]">
+      <div className="title lg:text-left my-3 lg:my-9 text-2xl mx-auto sm:text-3xl md:text-4xl lg:text-4xl max-w-[750px]">
+        <h1 className="font-bold sm:leading-[45px] text-center mx-auto">
           We Leverage the{" "}
           <span className="text-primary">Latest Technologies </span>
           to Create

@@ -6,8 +6,8 @@ const Hero = () => {
   return (
     // <section className="text-heading  h-[65vh] bg-[url('/backgrounds/banner023.png')] bg-right  bg-no-repeat">
     <section className="text-heading">
-      <div className="mx-auto flex px-5 py-2 mt-8 md:flex-row flex-col items-center">
-        <div className=" sm:pl-16 lg:flex-grow md:w-1/2 lg:pr-12 md:pr-12 flex flex-col md:items-start md:text-left md:mb-0 items-center max-w-[800px]">
+      <div className="max-w-screen-2xl mx-auto flex px-5 py-2 mt-8 md:flex-row flex-col items-center">
+        <div className="lg:flex-grow md:w-1/2 lg:pr-12 md:pr-12 flex flex-col md:items-start md:text-left md:mb-0 items-center max-w-[800px]">
           <h1 className=" sm:text-[60px] leading-[57px] text-3xl sm:mt-10 font-bold text-heading">
             {" "}
             We Believe

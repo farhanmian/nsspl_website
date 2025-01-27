@@ -91,7 +91,7 @@ export default function Home() {
       <div>
         <Hero />
         {/* Counter start------------------------------------------------------------ */}
-        <section className="bg-lightGray text-heading lg:mt-0 mt-5">
+        <section className="homeAboutSection text-heading mt-12">
           <div className="grid grid-cols-1 sm:mx-10 lg:grid-cols-[565px_minmax(0px,_1fr)_0px] items-center">
             <div className="flex flex-col">
               <div className="title mx-7 my-3 lg:my-9 lg:text-left text-center text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
@@ -135,7 +135,7 @@ export default function Home() {
                 <div className="flex flex-col p-10 text-left sm:mx-2 bg-white rounded-xl shadow-lg justify-center items-left gap-2">
                   <h1 className="font-bold text-3xl text-heading text-center">
                     <span className="text-primary">
-                      <CountUp end={18} duration={2} />+<br />
+                      <CountUp end={20} duration={2} />+<br />
                     </span>
                     Years of Experience
                   </h1>
@@ -280,10 +280,10 @@ export default function Home() {
         {/* We create End------------------------------------------------------------ */}
 
         {/* A Range of Start------------------------------------------------------------ */}
-        <section className="text-gray-600 body-font speedysolution text-heading mt-8 lg:mt-0">
+        <section className="text-gray-600 body-font speedysolution text-heading mt-8 lg:mt-0 mb-10">
           <div className="flex px-5 lg:px-12 lg:mx-10 md:flex-row flex-col items-center">
-            <div className="title lg:text-left my-3 lg:my-9 text-2xl sm:text-3xl md:text-4xl lg:text-4xl">
-              <h1 className="font-bold sm:leading-[45px] text-heading">
+            <div className="title lg:text-left my-3 lg:my-9 text-2xl sm:text-3xl md:text-4xl mx-auto lg:text-4xl">
+              <h1 className="font-bold sm:leading-[45px] text-heading text-center">
                 A Range of{" "}
                 <span className="text-primary">Speedy Solutions</span> to <br />
                 <span className="text-primary">Accelerate</span> Your Growth
@@ -293,7 +293,7 @@ export default function Home() {
           <div className="lg:pb-10 pb-5">
             <div className="lg:px-12 lg:mx-10">
               <div className="flex gap-5 flex-wrap xl:flex-nowrap justify-center">
-                <div className="max-w-full md:max-w-[45%] bg-lightGray p-4 w-full flex flex-col">
+                <div className="homeAccelerateGrowthCard max-w-full md:max-w-[45%] bg-lightGray p-4 w-full flex flex-col">
                   <div className="mb-5">
                     <h2 className="text-xl font-bold">MVP for Startups</h2>
 
@@ -361,7 +361,7 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="max-w-full md:max-w-[45%] bg-lightGray p-4 w-full flex flex-col">
+                <div className="homeAccelerateGrowthCard max-w-full md:max-w-[45%] bg-lightGray p-4 w-full flex flex-col">
                   <div className="mb-5">
                     <h2 className="text-xl font-bold">
                       Agile Product Team for Scaleups
@@ -433,14 +433,17 @@ export default function Home() {
                   </div>
                 </div>
 
-                <div className="max-w-full md:max-w-[45%] bg-lightGray p-4 w-full flex flex-col">
+                <div className="homeAccelerateGrowthCard max-w-full md:max-w-[45%] bg-lightGray p-4 w-full flex flex-col">
                   <div className="mb-5">
-                    <h2 className="text-xl font-bold">MVP for Startups</h2>
+                    <h2 className="text-xl font-bold">
+                      Enterprise Digital Transformation
+                    </h2>
 
                     <p className="text-base leading-7 text-left mt-4">
-                      Get to market with the fastest solution-building team
-                      there is. Shoot us your idea, and we’ll help you transform
-                      it into an amazing test-ready MVP!
+                      Get your day-to-day processes streamlined into a seamless
+                      experience with our customized enterprise product
+                      solutions. From revamping tech to creating new products,
+                      we’ve got your back!
                     </p>
 
                     <div className="text-base leading-6 text-left mt-6 px-6">

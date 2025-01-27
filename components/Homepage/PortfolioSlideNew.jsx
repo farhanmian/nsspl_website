@@ -47,13 +47,13 @@ const PortfolioSlideNew = () => {
     <div className="py-5 lg:mx-16 mx-7  customSlider">
       <div className="flex flex-col mb-5">
         <h1 className="text-center text-heading text-[42px] font-extrabold">
-          <span className="text-standardGreen">Projects</span>
+          <span className="text-primary">Projects</span>
         </h1>
       </div>
 
       <div>
         <Swiper
-          spaceBetween={2}
+          spaceBetween={10}
           onSlideChange={() => console.log("slide change")}
           breakpoints={{
             640: {
@@ -85,7 +85,7 @@ const PortfolioSlideNew = () => {
               key={index + 1}
             >
               <div
-                className={`items-center bg-gray-100 rounded-3xl m-auto   py-8 px-4 mx-1  lg:gap-0 lg:grid-cols-2`}
+                className={`portfolioSlideCard items-center bg-gray-100 rounded-3xl m-auto   py-8 px-4 mx-1  lg:gap-0 lg:grid-cols-2`}
               >
                 <div className="flex items-center lg:items-start flex-col gap-2">
                   <h2 className="text-lg pb-3 w-full overflow-auto">
@@ -121,7 +121,7 @@ const PortfolioSlideNew = () => {
                   )}
 
                   <div
-                    className={`text-center text-lg w-full text-primary pt-3 font-black`}
+                    className={`text-center text-lg w-full text-primary-dark pt-3 font-black`}
                   >
                     <Link href={`/projects/${item._id}`}>
                       View Case Study

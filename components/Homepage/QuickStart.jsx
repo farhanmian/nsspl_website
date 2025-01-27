@@ -4,7 +4,7 @@ import Link from "next/link";
 const QuickStart = () => {
   return (
     <>
-      <div className=" bg-primary flex flex-col h-40 justify-center">
+      <div id="startYourProject" className=" flex flex-col h-40 justify-center">
         <div className="flex justify-center pt-2">
           <h1 className="text-white font-bold text-4xl ">Start Your Project</h1>
         </div>
